@@ -1,0 +1,186 @@
+<?php 
+$text               = NULL;
+$style              = NULL;
+$link               = NULL;
+$width              = NULL;
+$size               = NULL;
+$icon               = NULL;
+$tab                = NULL;
+$animate            = NULL;
+$delay              = NULL;
+$color              = NULL;
+$color_custom       = NULL;
+$size_text          = NULL;
+$weight_text        = NULL;
+$color_text         = NULL;
+$color_text_hover   = NULL;
+$color_bg           = NULL;
+$color_bg_hover     = NULL;
+$width_border       = NULL;
+$color_border       = NULL;
+$color_border_hover = NULL;
+$border_radius      = NULL;
+$width_custom       = NULL;
+$height_custom      = NULL;
+
+$output             = NULL; 
+
+$text               = $atts['text'];
+$style              = $atts['style'];
+$link               = $atts['link'];
+$width              = $atts['width'];
+$size               = $atts['size'];
+$icon               = $atts['icon'];
+$tab                = $atts['tab'];
+$animate            = $atts['animate'];
+$delay              = $atts['delay'];
+$color              = $atts['color'];
+$color_custom       = $atts['color_custom'];
+$size_text          = $atts['size_text'];
+$weight_text        = $atts['weight_text'];
+$color_text         = $atts['color_text'];
+$color_text_hover   = $atts['color_text_hover'];
+$color_bg           = $atts['color_bg'];
+$color_bg_hover     = $atts['color_bg_hover'];
+$width_border       = $atts['width_border'];
+$color_border       = $atts['color_border'];
+$color_border_hover = $atts['color_border_hover'];
+$border_radius      = $atts['border_radius'];
+$width_custom       = $atts['width_custom'];
+$height_custom      = $atts['height_custom'];
+
+$animate_start    = NULL;
+$animate_end      = NULL;
+
+if ( empty( $text ) ) { 
+	$text = 'Read More';
+}
+if ( empty( $style ) ) { 
+	$style = 'style1';
+}
+if ( empty( $link ) ) { 
+	$link = '#';
+}
+if ( empty( $color ) or $color == 'default' ) { 
+	$color = 'themebutton';
+}
+if ( empty( $size ) ) { 
+	$size = 'medium';
+}
+if ( $icon == 'none' ) {
+	$icon = NULL;
+} else {
+	$icon = '<i class="fa fa-' . $icon . '"></i>';	
+}
+if ( $tab == 'on' ) {
+	$tab = ' target="_blank"';
+} else {
+	$tab = NULL;
+}
+
+// Assign animation variables if set
+if ( ! empty( $animate ) and $animate !== 'none' ) {
+	$animate_start = '<div class="animated start-' . $animate . '" title="' . $delay . '">';
+	$animate_end   = '</div><div class="clearboth"></div>';
+}
+
+echo $animate_start;
+echo '<a' . $tab . ' href="' . $link . '" id="' . $instanceID . '" class="button ' . $style . ' ' . $color . ' ' . $size . ' ' . $width . '">' . $text . $icon . '</a>';
+echo $animate_end;
+
+//====================================================================
+// Output custom styling if set
+//====================================================================
+
+if ( $color_custom == 'on' and ( ! empty( $color_text ) or ! empty( $color_text_hover ) or ! empty( $color_bg ) or ! empty( $color_bg_hover ) or ! empty( $border_radius ) ) ) {
+
+	$output .= '<style>';
+
+	// Output text size
+	if ( ! empty( $size_text ) and  $size_text !== 'default' ) {
+		$output .= '#' . $instanceID . ' { font-size: ' . $size_text . 'px; }';
+	}
+
+	// Output text weight
+	if ( ! empty( $weight_text ) and  $weight_text !== 'default' ) {
+		$output .= '#' . $instanceID . ' { font-weight: ' . $weight_text . '; }';
+	}
+
+	// Output text color
+	if ( ! empty( $color_text )  ) {
+		$output .= '#' . $instanceID . ' { color: ' . $color_text . '; }';
+	}
+
+	// Output text color - Hover
+	if ( ! empty( $color_text_hover ) ) {
+		$output .= '#' . $instanceID . ':hover { color: ' . $color_text_hover . '; }';
+	}
+
+	// Output background color
+	if ( ! empty( $color_bg ) ) {
+		$output .= '#' . $instanceID . ' { background: ' . $color_bg . '; }';
+	}
+
+	// Output background color - Hover
+	if ( ! empty( $color_bg_hover ) ) {
+		$output .= '#' . $instanceID . ':hover { background: ' . $color_bg_hover . '; }';
+	}
+
+	// Output border width
+	if ( ! empty( $width_border ) and  $width_border !== 'default' ) {
+		$output .= '#' . $instanceID . ' {';
+			$output .= 'border-width: ' . $width_border . 'px;'; 
+			$output .= 'border-style: solid;'; 
+		$output .= '}';
+	}
+
+	// Output border color
+	if ( ! empty( $color_border ) ) {
+		$output .= '#' . $instanceID . ' { border-color: ' . $color_border . '; }';
+	}
+
+	// Output border color - Hover
+	if ( ! empty( $color_border_hover ) ) {
+		$output .= '#' . $instanceID . ':hover { border-color: ' . $color_border_hover . '; }';
+	}
+
+	// Output border radius
+	if ( ! empty( $border_radius ) ) {
+		$output .= '#' . $instanceID . ' {';
+			$output .= '-webkit-border-radius: ' . $border_radius . 'px;';
+			$output .= '-moz-border-radius: ' . $border_radius . 'px;';
+			$output .= '-ms-border-radius: ' . $border_radius . 'px;';
+			$output .= '-o-border-radius: ' . $border_radius . 'px;';
+			$output .= 'border-radius: ' . $border_radius .'px;';
+		$output .= '}';
+	}
+
+	// Output custom width
+	if ( ! empty( $width_custom ) and  $width_custom !== 'default' ) {
+		$output .= '#' . $instanceID . ' {';
+			$output .= 'width: 100%;';
+			$output .= 'max-width: ' . $width_custom . 'px;';
+			$output .= 'padding-left: 0;';
+			$output .= 'padding-right: 0;';
+			$output .= '-webkit-box-sizing: border-box;';
+			$output .= '-moz-box-sizing: border-box;';
+			$output .= '-ms-box-sizing: border-box;';
+			$output .= '-o-box-sizing: border-box;';
+			$output .= 'box-sizing: border-box;';
+		$output .= '}';
+	}
+
+	// Output custom height
+	if ( ! empty( $height_custom ) and  $height_custom !== 'default' ) {
+		$output .= '#' . $instanceID . ' {';
+			$output .= 'height: ' . $height_custom . 'px;';
+			$output .= 'line-height: ' . ( $height_custom - ( 2 * $width_border ) ) . 'px;';
+			$output .= 'padding-top: 0;';
+			$output .= 'padding-bottom: 0;';
+		$output .= '}';
+	}
+
+	$output .= '</style>';
+	
+	echo $output;
+}

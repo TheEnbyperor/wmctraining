@@ -1,0 +1,58 @@
+/* 
+Custom class file for Announcer 
+By : Aakash Chakravarthy (www.aakashweb.com)
+Version : 1.4
+*/
+
+/* Class Name - Simple */
+
+.simple{
+	border: 1px solid #CCCCCC;
+	margin: 5px 0px;
+	background: #F9F9F9;
+	padding: 5px;
+}
+.simple .closeButton{
+	border: 1px solid #CCCCCC;
+	float: right;
+	font-weight: bold;
+	color: #000000;
+	height: 15px;
+	width: 15px;
+	text-align: center;
+	cursor: pointer;
+	background: #FFFFFF;
+	margin: 1.5px;
+	padding: 0px;
+	line-height: 12px;
+}
+
+/* Class Name - Float */
+
+.float{
+	background: #FFFFCC;
+	padding: 6px;
+	position: fixed;
+	top: 0px;
+	width: auto;
+	left: 0px;
+	right: 0px;
+	font-size: 13px;
+	color: #000000;
+	border-bottom: 3px solid #FFCC00;
+	z-index: 10000;
+}
+.float .closeButton{
+	border: 1px solid #CCCCCC;
+	float: right;
+	font-weight: bold;
+	color: #000000;
+	height: 15px;
+	width: 15px;
+	text-align: center;
+	cursor: pointer;
+	background: #FFFFFF;
+	margin: 1.5px;
+	padding: 0px;
+	line-height: 12px;
+}

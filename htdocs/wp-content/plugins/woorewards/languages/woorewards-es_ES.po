@@ -1,0 +1,983 @@
+# Translation of TGM Plugin Activation in Spanish (Spain)
+# This file is distributed under the same license as the TGMPA package.
+msgid ""
+msgstr ""
+"Project-Id-Version: TGM Plugin Activation v2.6.1\n"
+"POT-Creation-Date: 2018-06-09 17:35+0200\n"
+"PO-Revision-Date: 2018-08-02 22:21+0200\n"
+"Last-Translator: admin <spotcamilo@gmail.com>\n"
+"Language-Team: Español\n"
+"Language: es_ES\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: Poedit 2.1.1\n"
+"Report-Msgid-Bugs-To: \n"
+
+#: include/admin.php:37
+msgid "Options"
+msgstr "Opciones"
+
+#: include/admin.php:41
+msgid "User cart"
+msgstr "Carro del Cliente"
+
+#: include/admin.php:42
+msgid "Manage what your customer can see in the cart page."
+msgstr "Administra lo que el cliente puede ver en la pagina del carrito"
+
+#: include/admin.php:46
+msgid "Display the list of available coupons."
+msgstr "Mostrar el listado de cupones disponibles"
+
+#: include/admin.php:52
+msgid "Reminder"
+msgstr "Recordatorio"
+
+#: include/admin.php:53
+msgid ""
+"The reminder system will send emails to your customers to warn them about "
+"the deadline of their coupons."
+msgstr ""
+"El sistema de recordatorio enviara emails a sus clientes para advertirles "
+"del vencimiento de sus cupones."
+
+#: include/admin.php:57
+msgid "Reminder Email (Days before deadline)"
+msgstr "Email Recordatorio (Dias antes del vencimiento)"
+
+#: include/admin.php:76 include/admin.php:77 include/admin.php:298
+#: include/admin.php:314
+msgid "Points Management"
+msgstr "Gestion de Puntos"
+
+#: include/admin.php:81 include/admin.php:158
+msgid "Reward list"
+msgstr "Lista de Beneficios"
+
+#: include/admin.php:82
+msgid ""
+"When a user sums enough points, he can pick a reward in the following list."
+"<br/>\n"
+"If only one reward exists, it will be automatically awarded. Else an email "
+"will let the customer choose."
+msgstr ""
+"Cuando un usuario suma suficientes puntos, puede seleccionar un premio de la "
+"siguiente lista.<br/>\n"
+"Solo si un premio o beneficio existe, este sera otorgado automaticamente. De "
+"lo contrario un email dejara al cliente que elija.\n"
+"."
+
+#: include/admin.php:93
+msgid "Purchase System"
+msgstr "Sistema de Compras"
+
+#: include/admin.php:97
+msgid "Settings"
+msgstr "Configuracion"
+
+#: include/admin.php:102 include/admin.php:203
+msgid "Points Settings"
+msgstr "Configuracion de Puntos"
+
+#: include/admin.php:103
+msgid ""
+"Here you can specify the points awarded to customers when they buy on your "
+"shop."
+msgstr ""
+"Aqui puede espeficicar los puntos concedidos a los clientes cuando sus "
+"clientes compran en su tienda."
+
+#: include/admin.php:107
+msgid "Money Spent"
+msgstr "Dinero Gastado."
+
+#: include/admin.php:112
+msgid "Points Awarded"
+msgstr "Puntos Concedidos"
+
+#: include/admin.php:117
+msgid "Includes taxes"
+msgstr "Impuestos Incluidos"
+
+#: include/admin.php:122
+msgid "Points on 'Complete' order"
+msgstr "Puntos en orden 'Completa'"
+
+#: include/admin.php:124
+msgid ""
+"Default state to get points is the payed order status.<br/>If you want to "
+"use the complete order status instead (recommanded), check the below box"
+msgstr ""
+"El estado predeterminado para obtener puntos es el pago de la orden.<br/>Si "
+"prefiere que es use el status de orden \"Completo\"(Recomendado), haga check "
+"en la siguiente caja"
+
+#: include/admin.php:129
+msgid "Chosen Reward Page"
+msgstr "Pagina de Beneficios Elegida"
+
+#: include/admin.php:130
+msgid ""
+"Your customers can choose between all the rewards you set if they have "
+"enough points.\n"
+"\t\t\t\t\t\t\t<br/>You can display a list of available rewards with the "
+"<b>[lws_rewards]</b> shortcode."
+msgstr ""
+"Sus clientes pueden elegir entre los beneficios que usted determine si "
+"tienen los puntos necesarios\n"
+"<br/> Usted puede mostrar un listado de todos los beneficios disponibles con "
+"el shortcode <b>[lws_rewards]</b> ."
+
+#: include/admin.php:135
+msgid "Redirection page"
+msgstr "Pagina de Redireccionamiento"
+
+#: include/admin.php:137
+msgid "The page your customers go when they choose a reward."
+msgstr "La pagina a la cual sus clientes van cuando eligen una recompensa."
+
+#: include/admin.php:159
+msgid ""
+"Reward your customers for their loyalty to your site.<br/>\n"
+"Everytime customers reach a new level, they can be awarded one or several "
+"rewards."
+msgstr ""
+"Recompense a sus clientes por la lealtad a su sitio.<br/>\n"
+"Cada vez que sus clientes alcanzan un nuevo nivel, ellos seran recompensados "
+"con una o varias recompensas."
+
+#: include/admin.php:170
+msgid "Loyalty System"
+msgstr "Sistema de Lealtad"
+
+#: include/admin.php:174
+msgid "Reward Settings"
+msgstr "Configuracion de Recompensas"
+
+#: include/admin.php:179
+msgid "Front-End Shortcode : Customer Loyalty Rewards"
+msgstr "Front-End Shortcode: Recompensas de Lealtad de los Clientes"
+
+#: include/admin.php:180
+msgid ""
+"Present your loyalty rewards to your customers with the <b>[lws_loyalties]</"
+"b> shortcode."
+msgstr ""
+"Presenta las recompensas de lealtad a tus clientes con el shortcode "
+"<b>[lws_loyalties]</b>"
+
+#: include/admin.php:186
+msgid ""
+"Once you've finished setting the rewards, save your changes.<br/>Style the "
+"elements you wish to change in our style generator below and save.<br/>You "
+"will then see the final result in the last section of this page."
+msgstr ""
+"Una vez hayas finalizado la configuracion de las recompensas, guarda los "
+"cambios. <br/> Define el estilo de los elementos que deseas cambiar en "
+"nuestro generador de estilos y guarda. <br/> Entonces veras el resultado en "
+"la ultima seccion de esta pagina."
+
+#: include/admin.php:207
+msgid "New Order Event"
+msgstr "Evento de Nueva Orden"
+
+#: include/admin.php:208
+msgid "Does a customer earn loyalty points when he orders?"
+msgstr "Los clientes ganan puntos de lealtad cuando realizan una orden?"
+
+#: include/admin.php:212
+msgid "New Order"
+msgstr "Orden Nueva"
+
+#: include/admin.php:218
+msgid "New Product Review"
+msgstr "Nuevo Review de Producto"
+
+#: include/admin.php:219
+msgid "Does a customer earn loyalty points when he reviews a product?"
+msgstr ""
+"Los clientes ganan puntos de lealtad cuando realizan un review de un "
+"producto?"
+
+#: include/admin.php:223
+msgid "Product Review"
+msgstr "Review de Producto"
+
+#: include/admin.php:229
+msgid "Sponsorship Settings"
+msgstr "Configuracion de Patrocinios"
+
+#: include/admin.php:230
+msgid ""
+"You can add a sponsorship form on a page with the <b>[lws_sponsorship]</b> "
+"shortcode or use the <b>WooRewards Sponsorship</b> widget."
+msgstr ""
+"Puedes agregar un formulario de patrocinio en una pagina con el shortcode  "
+"<b>[lws_sponsorship]</b> o usar el widget <b>WooRewards Sponsorship</b>"
+
+#: include/admin.php:235 include/sponsorshipmail.php:22
+msgid "Sponsorship"
+msgstr "Patrocinio"
+
+#: include/admin.php:238
+msgid "Does a customer earn loyalty points when he sponsors a friend?"
+msgstr "Los clientes ganan puntos de lealtad cuando patrocinan a un amigo?"
+
+#: include/admin.php:243
+msgid "Max sponsorships per user"
+msgstr "Patrocinios Maximos por Usuario"
+
+#: include/admin.php:248
+msgid "No restriction on empty value or zero (0)."
+msgstr "Sin restricciones en valor vacio o cero (0)."
+
+#: include/admin.php:254
+msgid "Sponsored Reward"
+msgstr "Recompensa del Patrocinado"
+
+#: include/admin.php:255
+msgid ""
+"Define the reward granted to a new sponsored customer when he registers."
+msgstr ""
+"Define la recompensa otorgada al nuevo cliente patrocinado cuando se registre"
+
+#: include/admin.php:272
+msgid "Sponsor Reward"
+msgstr "Recompensa de Patrocinador"
+
+#: include/admin.php:273
+msgid ""
+"In addition of loyalty points, a customer can earn a reward for sponsorship."
+msgstr ""
+"En adicion a los puntos de lealtad, los clientes pueden ganar recompensas "
+"por patrocinar."
+
+#: include/admin.php:277
+msgid "Reward the sponsor"
+msgstr "Recompensa al patrocinador"
+
+#: include/admin.php:315
+msgid "Here you can see and manage the loyalty points of your customers"
+msgstr "Aqui puedes ver y administrar los puntos de lealtad de tus clientes"
+
+#: include/admin.php:316
+msgid ""
+"You can view the points <b>history</b> by clicking the points total in the "
+"table"
+msgstr ""
+"Puedes ver los puntos <b>history</b> dando click en el total de puntos de la "
+"tabla."
+
+#: include/admin.php:323
+msgid "Search..."
+msgstr "Buscar..."
+
+#: include/admin.php:343
+msgid "The result of <b>[lws_loyalties]</b> shortcode will look like below."
+msgstr ""
+"El resultado del shortcode <b>[lws_loyalties]</b> se vera como lo siguiente."
+
+#: include/convertor.php:161
+#, php-format
+msgid "Coupon (%s)"
+msgstr "Cupon (%s)"
+
+#: include/convertor.php:218
+msgid "WooRewards by Long Watch Studio"
+msgstr "WooRewards by Long Watch Studio"
+
+#: include/convertor.php:269
+#, php-format
+msgid "Your loyalty granted you the title of <b>%1$s</b>"
+msgstr "Tu lealtad te ha brindado el titulo de <b>%1$s</b>"
+
+#: include/convertor.php:298
+#, php-format
+msgid ""
+"<p>The user <b>%2$s</b> (%3$s) has reached the necessary Loyalty points to "
+"unlock the following reward:</p><p>%1$s</p>"
+msgstr ""
+"<p>El Usuario <b>%2$s</b> (%3$s) ha alcanzado los puntos de lealtad "
+"necesarios para desbloquear las siguientes recompensas:</p><p>%1$s</p>"
+
+#: include/convertor.php:315
+msgid "A customer unlocked the following reward: "
+msgstr "Un Cliente desbloqueo la siguiente recompensa:"
+
+#: include/convertor.php:338
+#, php-format
+msgid ""
+"Set coupon code <b>%1$s</b> in your cart to enjoy this free product : <b>"
+"%2$s</b>."
+msgstr ""
+"Ingresa el siguiente codigo  <b>%1$s</b> en tu carrito de compras para "
+"disfrutar de este producto: <b>%2$s</b>."
+
+#: include/convertor.php:342 include/convertor.php:367
+#, php-format
+msgid "Offer expires on <i>%s</i>."
+msgstr "La oferta vence en <i>%s</i>."
+
+#: include/convertor.php:359
+#, php-format
+msgid "Set coupon code <b>%1$s</b> in your cart to enjoy <b>%2$s</b> discount."
+msgstr ""
+"Ingresa el codigo <b>%1$s</b> en tu carrito para disfrutar del <b>%2$s</b> "
+"de descuento."
+
+#: include/couponreminder.php:22
+msgid "Expiry Reminder"
+msgstr "Recordatorio de Expiracion"
+
+#: include/couponreminder.php:23
+msgid "Inform a user about coupon that will expire."
+msgstr "Informar a un usuario acerca del vencimiento del cupon."
+
+#: include/couponreminder.php:42 include/rewardmail.php:47
+#: include/sponsorshipmail.php:71
+msgid "Coupon Details"
+msgstr "Detalle del Cupon"
+
+#: include/couponreminder.php:43 include/rewardmail.php:48
+#: include/sponsorshipmail.php:72
+msgid "Coupon Code"
+msgstr "Codigo de Cupon"
+
+#: include/couponreminder.php:44 include/rewardmail.php:49
+#: include/sponsorshipmail.php:73
+msgid "Coupon Value"
+msgstr "Valor del Cupon"
+
+#: include/couponreminder.php:45 include/rewardmail.php:50
+#: include/sponsorshipmail.php:74
+msgid "Expiration Date"
+msgstr "Fecha de Expiracion"
+
+#: include/couponreminder.php:46 include/rewardmail.php:51
+#: include/sponsorshipmail.php:75
+#, php-format
+msgctxt "e.g. 3€ Discount"
+msgid "%1$s%2$s Discount"
+msgstr "%1$s%2$s Descuento"
+
+#: include/couponreminder.php:47 include/freeproduct.php:30
+#: include/rewardlist.php:50 include/rewardmail.php:52
+#: include/sponsorshipmail.php:76
+msgid "Free Product"
+msgstr "Producto Gratis"
+
+#: include/couponreminder.php:130 include/rewardmail.php:135
+#: include/sponsorshipmail.php:166
+msgid "Test Coupon"
+msgstr "Probar Cupon"
+
+#: include/couponreminder.php:133 include/rewardmail.php:138
+#: include/sponsorshipmail.php:169
+#, php-format
+msgctxt "Test case"
+msgid ""
+"Set coupon code <b>%1$s</b> in your cart to enjoy %2$s%% discount. Offer "
+"expires on %3$s."
+msgstr ""
+"Ingresa el codigo <b>%1$s</b> en tu carrito para disfrutar del %2$s%% "
+"discount. La Oferta vence en %3$s."
+
+#: include/couponreminder.php:140 include/rewardmail.php:145
+#: include/sponsorshipmail.php:176
+msgid "Something Funky"
+msgstr "Algo Funky"
+
+#: include/couponreminder.php:141 include/rewardmail.php:146
+#: include/sponsorshipmail.php:177
+msgctxt "Test case"
+msgid ""
+"In ancient times cats were worshipped as gods. They have not forgotten this."
+msgstr ""
+"En la antigüedad, los gatos eran adorados como dioses. Ellos no han olvidado "
+"esto."
+
+#: include/freeproduct.php:29
+msgid "Free"
+msgstr "Gratis"
+
+#: include/freeproduct.php:31
+msgid "Search for a product&hellip;"
+msgstr "Buscar por un producto&hellip;"
+
+#: include/freeproduct.php:32
+msgid "Free product awarded by the coupon"
+msgstr "Producto Gratis otorgado por el cupon"
+
+#: include/freeproduct.php:50
+msgid "This is a Woorewards Free Product"
+msgstr "Este es un Producto Gratis de Woorewards."
+
+#: include/freeproduct.php:51
+msgid ""
+"Check this box if the coupon is a WooRewards Free Product. Read "
+"documentation on how to use it"
+msgstr ""
+"Marca esta caja si el el cupon es un Producto Gratis. Lee la documentacion "
+"de como usarlo."
+
+#: include/loyalty.php:112
+#, php-format
+msgid "Review about (%d)"
+msgstr "Review acerca  (%d)"
+
+#: include/loyalty.php:134
+#, php-format
+msgid "Order (%d)"
+msgstr "Orden (%d)"
+
+#: include/loyalty.php:175
+#, php-format
+msgid "Thanks to you, %s joined us."
+msgstr "Gracias, %s ingresar"
+
+#: include/loyalty.php:193
+msgid "Here are the Loyalty Rewards available on our site"
+msgstr ""
+"Aqui puedes enconrtar los Beneficios de Lealtad disponibles en nuestra pagina"
+
+#: include/loyalty.php:211
+#, php-format
+msgctxt "customerLoyaltyResume step points"
+msgid "%d Points"
+msgstr "%d de Puntos"
+
+#: include/loyaltyeventfield.php:27
+msgid "Enabled"
+msgstr "Activo"
+
+#: include/loyaltyeventfield.php:30
+msgid "Points added:"
+msgstr "Puntos Añadidos:"
+
+#: include/loyaltyhistory.php:22
+msgid "User Information"
+msgstr "Informacion de Usuario"
+
+#: include/loyaltyhistory.php:23
+msgid "User Id"
+msgstr "ID del Usuario"
+
+#: include/loyaltyhistory.php:25 include/loyaltyhistory.php:59
+#: include/rewardlist.php:58
+msgid "Name"
+msgstr "Nombre"
+
+#: include/loyaltyhistory.php:27
+msgid "E-mail"
+msgstr "E-mail"
+
+#: include/loyaltyhistory.php:29 include/loyaltyhistory.php:60
+msgid "City"
+msgstr "Ciudad"
+
+#: include/loyaltyhistory.php:34
+msgid "Points Information"
+msgstr "Informacion de Puntos"
+
+#: include/loyaltyhistory.php:35
+msgid "Current Points"
+msgstr "Puntos Actuales"
+
+#: include/loyaltyhistory.php:37
+msgid "New Total"
+msgstr "Nuevo Total"
+
+#: include/loyaltyhistory.php:57
+msgid "Login"
+msgstr "Login"
+
+#: include/loyaltyhistory.php:58
+msgid "Email"
+msgstr "Email"
+
+#: include/loyaltyhistory.php:61
+msgid "Points"
+msgstr "Puntos"
+
+#: include/loyaltyhistory.php:150
+msgid "Adjustment"
+msgstr "Ajuste"
+
+#: include/loyaltyhistory.php:155 include/loyaltyhistoryaction.php:26
+msgid "A new coupon has been generated."
+msgid_plural "New coupons have been generated."
+msgstr[0] "Un nuevo cupon se ha generado."
+msgstr[1] "Nuevos cupones se han generado."
+
+#: include/loyaltyhistoryaction.php:17
+msgid "Add/Substract points"
+msgstr "Agregar/Restar puntos"
+
+#: include/loyaltyhistoryaction.php:39
+msgid "Commercial operation"
+msgstr "Operacion Comercial"
+
+#: include/loyaltymail.php:24
+msgid "New Loyalty Reward"
+msgstr "Nueva Recompensa de Lealtad"
+
+#: include/loyaltymail.php:25
+msgid "Sent to customers when a new coupon is generated due to their loyalty."
+msgstr ""
+"Enviar a los clientes cuando se genera un nuevo cupón debido a su lealtad."
+
+#: include/loyaltymail.php:47
+msgid "Reward Name"
+msgstr "Nombre de la Recompensa"
+
+#: include/loyaltymail.php:48
+msgid "Reward Description"
+msgstr "Descripcion de la Recompensa"
+
+#: include/loyaltymail.php:84
+msgctxt "Test case"
+msgid "My Reward"
+msgstr "Mi Recompensa"
+
+#: include/loyaltymail.php:87
+#, php-format
+msgctxt "Test case"
+msgid ""
+"Set coupon code <b>%1$s</b> in your cart to enjoy <b>%2$s%%</b> discount. "
+"Offer expires on <i>%3$s</i>."
+msgstr ""
+"Ingresa el codigo <b>%1$s</b> en tu carrito de compras para disfrutar del <b>"
+"%2$s%%</b> de descuento. La oferta vence en <i>%3$s</i>."
+
+#: include/myaccountfrontend.php:62
+msgid "Loyalty and Rewards"
+msgstr "Programa de Lealtad y Recompensas"
+
+#: include/myaccountfrontend.php:97
+msgid "Purchase Rewards Information"
+msgstr "Informacion de Compras y Recompensas"
+
+#: include/myaccountfrontend.php:98 include/rewardclaimer.php:175
+#, php-format
+msgid "You have %d points available."
+msgstr "Tienes %d puntos disponibles."
+
+#: include/myaccountfrontend.php:123
+msgid "Unlockable Rewards"
+msgstr "Recompensas No Desbloqueables"
+
+#: include/myaccountfrontend.php:124 include/showcoupon.php:58
+msgid "Description"
+msgstr "Descripcion"
+
+#: include/myaccountfrontend.php:125
+msgid "Points Value"
+msgstr "Valor de los Puntos"
+
+#: include/myaccountfrontend.php:126
+msgid "Action"
+msgstr "Accion"
+
+#: include/myaccountfrontend.php:127 include/rewardclaimer.php:219
+msgid "Unlock"
+msgstr "Desbloquear"
+
+#: include/myaccountfrontend.php:145
+#, php-format
+msgid "You will need %d more reward points to enable this reward"
+msgstr "Necesitas %d puntos de lealtad mas para habilitar esta recompensa."
+
+#: include/myaccountfrontend.php:156
+msgid "Loyalty Information"
+msgstr "Informacion de Lealtad"
+
+#: include/myaccountfrontend.php:157
+#, php-format
+msgid "You have %d loyalty points available."
+msgstr "Tienes %d puntos de lealtad disponibles."
+
+#: include/rewardclaimer.php:46
+msgid "Reward Choice"
+msgstr "Eleccion de Recompensas"
+
+#: include/rewardclaimer.php:47
+msgid ""
+"Inform a customer about available rewards. Available rewards depend on "
+"customer point count. This email provide links to pick one and consume "
+"points."
+msgstr ""
+"Informar a un cliente acerca de las recompensas disponibles. Las recompensas "
+"disponibles dependen del número de puntos del cliente. Este correo "
+"electrónico proporciona enlaces para elegir uno y consumir los puntos."
+
+#: include/rewardclaimer.php:119
+msgid ""
+"We cannot generate your reward. Did you already consume your rewards points?"
+msgstr "No podemos generar tu recompensa. Ya utilizaste tus puntos?"
+
+#: include/rewardclaimer.php:122
+msgid "You must be logged in to generate your reward."
+msgstr "Debes iniciar sesion para generar tu recompensa."
+
+#: include/rewardclaimer.php:124
+msgid "The reward you're looking for doesn't exist anymore."
+msgstr "La Recompensa que estas buscando ya no existe."
+
+#: include/rewardclaimer.php:133
+msgid ""
+"You will receive an email with the description of the rewards you chose."
+msgstr "Recibiras un email con la descripcion de la recompensa elegida."
+
+#: include/rewardclaimer.php:139
+msgid "The following rewards are still waiting for you"
+msgstr "Las siguiente(s) Recompensa(s) siguen esperando por ti"
+
+#: include/rewardclaimer.php:149
+msgid "Your reward has been added."
+msgstr "Tu recompensa ha sido agregada"
+
+#: include/rewardclaimer.php:199
+#, php-format
+msgid "This reward is worth %d points"
+msgstr "Esta recompensa vale %d puntos"
+
+#: include/rewardclaimer.php:204
+#, php-format
+msgid "This reward is worth %d points, you need %d more points"
+msgstr "Esta recompensa vale %d puntos, necesitas %d puntos mas"
+
+#: include/rewardclaimer.php:227
+msgctxt "Cannot get back all data to be sure about user and rewards."
+msgid "Error"
+msgstr "Error"
+
+#: include/rewardclaimer.php:295
+msgid "You don't have access to any reward yet."
+msgstr "Aun no tienes acceso a alguna recompensa."
+
+#: include/rewardclaimer.php:298
+msgid "No user connected"
+msgstr "Ho hay usuarios conectados"
+
+#: include/rewardlist.php:47
+msgid "Coupon"
+msgstr "Cupon"
+
+#: include/rewardlist.php:48
+msgid "Reduction"
+msgstr "Reduccion"
+
+#: include/rewardlist.php:49 include/rewardlist.php:70
+#: include/sponsorshipwidget.php:44
+msgid "Title"
+msgstr "Titulo"
+
+#: include/rewardlist.php:51
+msgid "Custom Reward"
+msgstr "Recompensa Personalizada"
+
+#: include/rewardlist.php:59 include/rewardlist.php:194
+msgid "Point Threshold"
+msgstr "Puntos Necesarios"
+
+#: include/rewardlist.php:60
+msgid "Type"
+msgstr "Clase"
+
+#: include/rewardlist.php:62
+msgid "Value"
+msgstr "Valor"
+
+#: include/rewardlist.php:63
+msgid "Validity Period (days)"
+msgstr "Periodo de Validez (Dias)"
+
+#: include/rewardlist.php:66
+msgid "Product chosen"
+msgstr "Producto Elegido"
+
+#: include/rewardlist.php:67
+msgid "Quantity"
+msgstr "Cantidad"
+
+#: include/rewardlist.php:69
+msgid "In"
+msgstr "En"
+
+#: include/rewardlist.php:71
+msgid "Custom reward"
+msgstr "Recompensa Personalizada"
+
+#: include/rewardlist.php:72
+msgid "Custom reward text for Admin"
+msgstr "Texto para Administrador de la Recompensa Personalizada"
+
+#: include/rewardlist.php:73
+msgid "Media"
+msgstr "Media"
+
+#: include/rewardlist.php:74
+msgid "Set Title Position"
+msgstr "Define la Posicion del Titulo"
+
+#: include/rewardlist.php:75
+msgid "Title on the left"
+msgstr "Titulo a la izquierda"
+
+#: include/rewardlist.php:76
+msgid "Title on the right"
+msgstr "Titulo a la Derecha"
+
+#: include/rewardlist.php:77
+msgid "Percent acquired"
+msgstr "Porcentaje adquirido"
+
+#: include/rewardlist.php:78
+msgid "Permanent"
+msgstr "Permanente"
+
+#: include/rewardlist.php:79
+msgid "Minimum Purchase"
+msgstr "Compra Minima"
+
+#: include/rewardlist.php:80
+msgid "Cumulable"
+msgstr "Acumulable"
+
+#: include/rewardlist.php:191
+msgid "Picture"
+msgstr "Imagen"
+
+#: include/rewardlist.php:192
+msgid "Designation"
+msgstr "Designacion"
+
+#: include/rewardlist.php:193
+msgid "Customer view"
+msgstr "Vista del Cliente"
+
+#: include/rewardlist.php:287
+#, php-format
+msgctxt "Reward by a user title"
+msgid "Become %s."
+msgstr "Llega a ser %s."
+
+#: include/rewardlist.php:303
+#, php-format
+msgid "Get a free %s with your next order."
+msgstr "Obten gratis %s con tu proxima orden."
+
+#: include/rewardlist.php:325
+#, php-format
+msgid "Get %1$s discount on your next order."
+msgstr "Obten %1$s de descuento en tu proxima orden."
+
+#: include/rewardlist.php:327
+#, php-format
+msgid "Get %1$s discount on all your next orders."
+msgstr "Obten %1$s de descuento en todas las proximas ordenes."
+
+#: include/rewardlist.php:330
+#, php-format
+msgid "<br/>Available only for %1$s days."
+msgstr "<br/>Disponible por solo %1$s dias."
+
+#: include/rewardlist.php:332
+msgid " (not cumulative)"
+msgstr "(no acumulable)"
+
+#: include/rewardmail.php:24 woorewards-pro.php:170 woorewards-pro.php:174
+msgid "New Coupon"
+msgstr "Nuevo Cupon"
+
+#: include/rewardmail.php:25
+msgid "Sent to customers when a new coupon is generated due to a purchase."
+msgstr ""
+"Enviar a los clientes cuando se genera un nuevo cupón debido a una compra."
+
+#: include/showcoupon.php:37
+msgid "Use Coupon"
+msgstr "Usar Cupon"
+
+#: include/showcoupon.php:57
+msgid "Available Coupons"
+msgstr "Cupones Disponibles"
+
+#: include/showcoupon.php:59
+msgid "Use"
+msgstr "Usar"
+
+#: include/sponsorship.php:56
+#, php-format
+msgid "Too many emails. Rest %d."
+msgstr "Demasiados emails. Resta %d."
+
+#: include/sponsorship.php:62
+msgid "A mail has been send to your friend about us."
+msgid_plural "Mails have been send to your friends about us."
+msgstr[0] "Un email ha sido enviado a tu amig@."
+msgstr[1] "Los emails han sido enviados a tus amig@s."
+
+#: include/sponsorship.php:111
+msgid "Email address is not valid."
+msgstr "Direccion de Email no valida."
+
+#: include/sponsorship.php:114
+msgid "You cannot sponsor yourself."
+msgstr "Tu puedes ser tu propio Sponsor."
+
+#: include/sponsorship.php:117
+#, php-format
+msgid "You already sponsored %s."
+msgstr "Ya has patrocinado %s."
+
+#: include/sponsorship.php:121
+#, php-format
+msgid "%s is already sponsored."
+msgstr "%s ya ha sido patrocinado."
+
+#: include/sponsorship.php:126
+#, php-format
+msgid "%s is already an active customer."
+msgstr "%s ya es un cliente activo."
+
+#: include/sponsorshipmail.php:23
+msgid ""
+"Inform a user about a sponsorship. Use the shortcode <b>[sponsor]</b> to "
+"insert the name of the sponsor."
+msgstr ""
+"Informar al usuario acerca de los patrocinios. Usa el shortcode "
+"<b>[sponsor]</b> para agregar el nombre del patrocinante."
+
+#: include/sponsorshipmail.php:28
+msgid "Your site link text"
+msgstr "El texto del link de tu sitio"
+
+#: include/sponsorshipmail.php:32
+msgid "The text displayed in the link to your site."
+msgstr "El texto mostrado en el link de tu sitio."
+
+#: include/sponsorshipwidget.php:18
+msgid "WooRewards Sponsorship"
+msgstr "Patrocinio Woorewards"
+
+#: include/sponsorshipwidget.php:19
+msgid "Let your customers sponsor new customers."
+msgstr "Permite a tus clientes patrocinar nuevos clientes"
+
+#: include/sponsorshipwidget.php:31
+msgctxt "frontend"
+msgid "Sponsor a friend"
+msgstr "Patrocina a un amigo"
+
+#: include/sponsorshipwidget.php:50
+msgid "Explanation"
+msgstr "Explicacion"
+
+#: include/sponsorshipwidget.php:76
+msgid "Your friend's email"
+msgstr "El email de tu amig@"
+
+#: include/sponsorshipwidget.php:85
+msgid "You've reached your sponsorship limit."
+msgstr "Has alcanzado el limite de patrocinios."
+
+#: snippets/mails/couponreminder.php:11 snippets/mails/newloyalty.php:11
+#: snippets/mails/newreward.php:11 snippets/mails/rewardclaimer.php:11
+msgid "Purchase achievement"
+msgstr "Logro de Compras"
+
+#: snippets/mails/couponreminder.php:18 snippets/mails/newloyalty.php:18
+#: snippets/mails/newreward.php:18 snippets/mails/rewardclaimer.php:18
+msgid "Achievement details"
+msgstr "Detalle de Logros"
+
+#: snippets/mails/sponsorship.php:11
+msgid "Sponsorship."
+msgstr "Patrocinio."
+
+#: snippets/mails/sponsorship.php:18
+msgid "Order now and enjoy this discount"
+msgstr "Compra ahora y disfruta de este descuento"
+
+#: woorewards-pro.php:54
+msgid "WooRewards Small"
+msgstr "Woorewards Pequeño"
+
+#: woorewards-pro.php:169 woorewards-pro.php:173
+msgid "You got a new coupon"
+msgstr "Tienes un nuevo Cupon"
+
+#: woorewards-pro.php:171 woorewards-pro.php:175
+msgid "Here is the new coupon code you just got"
+msgstr "Este es el nuevo cupon de has adquirido"
+
+#: woorewards-pro.php:177 woorewards-pro.php:178
+msgid "Your coupon will soon expire"
+msgstr "Tu cupon vencera pronto"
+
+#: woorewards-pro.php:179
+msgid "Here is the list of coupon that will soon expire"
+msgstr "Esta es una lista de cupones que venceran pronto"
+
+#: woorewards-pro.php:181
+msgid "Rewards are waiting for you"
+msgstr "Las Recompensas estan esperando por ti"
+
+#: woorewards-pro.php:182
+msgid "Pick a reward"
+msgstr "Elige una Recompensa"
+
+#: woorewards-pro.php:183
+msgid ""
+"We want to reward your involvement on our site. Follow one of the link below "
+"to consume your points or wait for bigger rewards."
+msgstr ""
+"Queremos recompensar tu participación en nuestro sitio. Sige uno de los "
+"siguientes enlaces para consumir tus puntos o espera recompensas más grandes."
+
+#: woorewards-pro.php:185
+msgid "An advise from [sponsor]"
+msgstr "Un consejo de [sponsor]"
+
+#: woorewards-pro.php:186
+msgid "[sponsor] wants you to know us"
+msgstr "[sponsor] quiere que nos conozcas"
+
+#: woorewards-pro.php:187
+msgid "Register and enjoy the reward below with your next order."
+msgstr "Registrate y disfruta de esta recompensa en tu siguiente compra."
+
+#: woorewards-pro.php:204
+msgid "Sponsored reward"
+msgstr "Recompensa Patrocinada"
+
+#: woorewards-pro.php:215
+msgid "Sponsor reward"
+msgstr "Recompensa del Patrocinador"
+
+#: woorewards-pro.php:248
+msgid "Thank you"
+msgstr "Gracias!"
+
+#. Plugin Name of the plugin/theme
+msgid "WooRewards Pro"
+msgstr "WooRewards Pro"
+
+#. Plugin URI of the plugin/theme
+msgid "https://plugins.longwatchstudio.com"
+msgstr "https://plugins.longwatchstudio.com"
+
+#. Description of the plugin/theme
+msgid "Rewarding and Fidelity system for WooCommerce."
+msgstr "Sistema de Recompensas y Fidelidad para Woocommerce."
+
+#. Author of the plugin/theme
+msgid "Long Watch Studio"
+msgstr "Long Watch Studio"
+
+#. Author URI of the plugin/theme
+msgid "https://longwatchstudio.com"
+msgstr "https://longwatchstudio.com"

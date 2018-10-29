@@ -1,0 +1,80 @@
+/*
+ Theme Name:  Alante Grid
+ Theme URI:   http://www.thinkupthemes.com/free/alante/
+ Description: Alante Grid is a child theme of the Alante theme with a 2 column grid layout blog. Alante Grid is perfect for any type of website including web agency businesses, traditional blogs, portfolios and photography websites. It's also a great fit for corporate business and freeelancer websites. Alante Grid if fully response, had a clean, modern design with a minimal feel. Plus it's SEO friendly and full compatible with leading ecommerce and translation plugins such as WooCommerce, WPML and Polylang. Alante Grid is the perfect theme for any business.
+ Author:      Think Up Themes
+ Author URI:  http://www.thinkupthemes.com
+ Template:    alante
+ Version:     1.0.2
+ License:     GNU General Public License
+ License URI: /licenses/license.txt
+ Tags:        one-column, two-columns, three-columns, right-sidebar, left-sidebar, custom-header, custom-menu, full-width-template, theme-options, threaded-comments, featured-images, post-formats, sticky-post, translation-ready, flexible-header, custom-background, grid-layout, footer-widgets, blog, e-commerce, photography, rtl-language-support
+ Text Domain: alante-grid
+*/
+
+/* Services */
+
+/* Pre Header */
+#pre-header .menu > li {
+	border-left: 1px solid #ddd;
+}
+#pre-header .menu > li:last-child {
+	border-right: 1px solid #ddd;
+}
+
+/* Header */
+
+/* Blog */
+.blog-grid {
+	width: 50%;
+	padding: 5px 10px;
+}
+.blog-article {
+	margin: 0 0 10px
+}
+.blog-article .more-link {
+	text-align: left;
+}
+.blog-article .more-link a span,
+.blog-article .more-link a i {
+	-webkit-transition: all 0.3s ease;
+	-moz-transition: all 0.3s ease;
+	transition: all 0.3s ease;
+}
+.blog-article .more-link a:hover span {
+	right: 0;
+}
+.blog-article .more-link a:hover i {
+	position: relative;
+	margin-left: 10px;
+}
+
+/* Posts & Pages */
+.page #main-core > article,
+.single #main-core > article {
+	padding: 20px;
+	border: 1px solid #EEE;
+}
+
+/* Pagination */
+.nav-links {
+	text-align: center;
+}
+
+/* Sidebars */
+#sidebar .widget {
+	border-width: 1px !important;
+	border-style: solid;
+	border-color: #ddd;
+	padding: 10px 15px 15px;
+}
+#sidebar .widget_tag_cloud,
+#sidebar .widget_archive,
+#sidebar .widget_categories,
+#sidebar .widget_search {
+	border-bottom-width: 1px !important;
+}
+
+/* Footer */
+
+/* Responsive */

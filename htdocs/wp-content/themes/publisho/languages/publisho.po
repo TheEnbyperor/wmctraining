@@ -1,0 +1,443 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Publisho\n"
+"POT-Creation-Date: 2016-08-05 21:27+0530\n"
+"PO-Revision-Date: 2016-08-05 21:30+0530\n"
+"Last-Translator: \n"
+"Language-Team:  <support@themonic.com>\n"
+"Language: en\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.7.6\n"
+"X-Poedit-Basepath: .\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Poedit-KeywordsList: __;_e;_n:1,2;_x:1,2c\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-SearchPath-0: C:\\Bitnami\\wordpress-4.1.2-0\\apps\\wordpress"
+"\\htdocs\\wp-content\\themes\\publisho\n"
+
+#: C:\Bitnami\wordpress-4.1.2-0\apps\wordpress\htdocs\wp-content\themes\publisho/404.php:17
+msgid "Nothing Here!"
+msgstr ""
+
+#: C:\Bitnami\wordpress-4.1.2-0\apps\wordpress\htdocs\wp-content\themes\publisho/404.php:21
+#: C:\Bitnami\wordpress-4.1.2-0\apps\wordpress\htdocs\wp-content\themes\publisho/content-none.php:17
+msgid "Kindly search your topic below or browse the recent posts."
+msgstr ""
+
+#: C:\Bitnami\wordpress-4.1.2-0\apps\wordpress\htdocs\wp-content\themes\publisho/archive.php:29
+#, php-format
+msgid "Daily Archives: %s"
+msgstr ""
+
+#: C:\Bitnami\wordpress-4.1.2-0\apps\wordpress\htdocs\wp-content\themes\publisho/archive.php:31
+#, php-format
+msgid "Monthly Archives: %s"
+msgstr ""
+
+#: C:\Bitnami\wordpress-4.1.2-0\apps\wordpress\htdocs\wp-content\themes\publisho/archive.php:31
+msgctxt "monthly archives date format"
+msgid "F Y"
+msgstr ""
+
+#: C:\Bitnami\wordpress-4.1.2-0\apps\wordpress\htdocs\wp-content\themes\publisho/archive.php:33
+#, php-format
+msgid "Yearly Archives: %s"
+msgstr ""
+
+#: C:\Bitnami\wordpress-4.1.2-0\apps\wordpress\htdocs\wp-content\themes\publisho/archive.php:33
+msgctxt "yearly archives date format"
+msgid "Y"
+msgstr ""
+
+#: C:\Bitnami\wordpress-4.1.2-0\apps\wordpress\htdocs\wp-content\themes\publisho/archive.php:35
+msgid "Archives"
+msgstr ""
+
+#: C:\Bitnami\wordpress-4.1.2-0\apps\wordpress\htdocs\wp-content\themes\publisho/author.php:29
+#, php-format
+msgid "Author Archives: %s"
+msgstr ""
+
+#: C:\Bitnami\wordpress-4.1.2-0\apps\wordpress\htdocs\wp-content\themes\publisho/author.php:50
+#: C:\Bitnami\wordpress-4.1.2-0\apps\wordpress\htdocs\wp-content\themes\publisho/content.php:75
+#, php-format
+msgid "About %s"
+msgstr ""
+
+#: C:\Bitnami\wordpress-4.1.2-0\apps\wordpress\htdocs\wp-content\themes\publisho/category.php:16
+#, php-format
+msgid "Category Archives: %s"
+msgstr ""
+
+#: C:\Bitnami\wordpress-4.1.2-0\apps\wordpress\htdocs\wp-content\themes\publisho/comments.php:25
+#, php-format
+msgid "One thought on &ldquo;%2$s&rdquo;"
+msgid_plural "%1$s thoughts on &ldquo;%2$s&rdquo;"
+msgstr[0] ""
+msgstr[1] ""
+
+#: C:\Bitnami\wordpress-4.1.2-0\apps\wordpress\htdocs\wp-content\themes\publisho/comments.php:36
+msgid "Comment navigation"
+msgstr ""
+
+#: C:\Bitnami\wordpress-4.1.2-0\apps\wordpress\htdocs\wp-content\themes\publisho/comments.php:37
+msgid "&larr; Older Comments"
+msgstr ""
+
+#: C:\Bitnami\wordpress-4.1.2-0\apps\wordpress\htdocs\wp-content\themes\publisho/comments.php:38
+msgid "Newer Comments &rarr;"
+msgstr ""
+
+#: C:\Bitnami\wordpress-4.1.2-0\apps\wordpress\htdocs\wp-content\themes\publisho/comments.php:47
+msgid "Comments are closed."
+msgstr ""
+
+#: C:\Bitnami\wordpress-4.1.2-0\apps\wordpress\htdocs\wp-content\themes\publisho/content-none.php:13
+#: C:\Bitnami\wordpress-4.1.2-0\apps\wordpress\htdocs\wp-content\themes\publisho/search.php:34
+msgid "Nothing Found"
+msgstr ""
+
+#: C:\Bitnami\wordpress-4.1.2-0\apps\wordpress\htdocs\wp-content\themes\publisho/content-page.php:18
+#: C:\Bitnami\wordpress-4.1.2-0\apps\wordpress\htdocs\wp-content\themes\publisho/content.php:62
+#: C:\Bitnami\wordpress-4.1.2-0\apps\wordpress\htdocs\wp-content\themes\publisho/image.php:92
+msgid "Pages:"
+msgstr ""
+
+#: C:\Bitnami\wordpress-4.1.2-0\apps\wordpress\htdocs\wp-content\themes\publisho/content-page.php:21
+#: C:\Bitnami\wordpress-4.1.2-0\apps\wordpress\htdocs\wp-content\themes\publisho/content.php:68
+#: C:\Bitnami\wordpress-4.1.2-0\apps\wordpress\htdocs\wp-content\themes\publisho/functions.php:249
+#: C:\Bitnami\wordpress-4.1.2-0\apps\wordpress\htdocs\wp-content\themes\publisho/image.php:37
+msgid "Edit"
+msgstr ""
+
+#: C:\Bitnami\wordpress-4.1.2-0\apps\wordpress\htdocs\wp-content\themes\publisho/content.php:14
+msgid "Featured Article"
+msgstr ""
+
+#: C:\Bitnami\wordpress-4.1.2-0\apps\wordpress\htdocs\wp-content\themes\publisho/content.php:20
+#: C:\Bitnami\wordpress-4.1.2-0\apps\wordpress\htdocs\wp-content\themes\publisho/index.php:21
+#: C:\Bitnami\wordpress-4.1.2-0\apps\wordpress\htdocs\wp-content\themes\publisho/single.php:18
+#, php-format
+msgid "Permalink to %s"
+msgstr ""
+
+#: C:\Bitnami\wordpress-4.1.2-0\apps\wordpress\htdocs\wp-content\themes\publisho/content.php:27
+msgid "By"
+msgstr ""
+
+#: C:\Bitnami\wordpress-4.1.2-0\apps\wordpress\htdocs\wp-content\themes\publisho/content.php:35
+msgid "0 Comment"
+msgstr ""
+
+#: C:\Bitnami\wordpress-4.1.2-0\apps\wordpress\htdocs\wp-content\themes\publisho/content.php:35
+msgid "1 Comment"
+msgstr ""
+
+#: C:\Bitnami\wordpress-4.1.2-0\apps\wordpress\htdocs\wp-content\themes\publisho/content.php:35
+msgid "% Comments"
+msgstr ""
+
+#: C:\Bitnami\wordpress-4.1.2-0\apps\wordpress\htdocs\wp-content\themes\publisho/content.php:61
+msgid "Continue reading <span class=\"meta-nav\">&rarr;</span>"
+msgstr ""
+
+#: C:\Bitnami\wordpress-4.1.2-0\apps\wordpress\htdocs\wp-content\themes\publisho/content.php:67
+msgid "Category:"
+msgstr ""
+
+#: C:\Bitnami\wordpress-4.1.2-0\apps\wordpress\htdocs\wp-content\themes\publisho/content.php:79
+#, php-format
+msgid "View all posts by %s <span class=\"meta-nav\">&rarr;</span>"
+msgstr ""
+
+#: C:\Bitnami\wordpress-4.1.2-0\apps\wordpress\htdocs\wp-content\themes\publisho/functions.php:26
+msgid "Primary Menu"
+msgstr ""
+
+#: C:\Bitnami\wordpress-4.1.2-0\apps\wordpress\htdocs\wp-content\themes\publisho/functions.php:27
+msgid "Top Header Menu"
+msgstr ""
+
+#: C:\Bitnami\wordpress-4.1.2-0\apps\wordpress\htdocs\wp-content\themes\publisho/functions.php:60
+msgid "Read More"
+msgstr ""
+
+#: C:\Bitnami\wordpress-4.1.2-0\apps\wordpress\htdocs\wp-content\themes\publisho/functions.php:85
+msgctxt "Roboto font: on or off"
+msgid "on"
+msgstr ""
+
+#: C:\Bitnami\wordpress-4.1.2-0\apps\wordpress\htdocs\wp-content\themes\publisho/functions.php:128
+msgid "Main Sidebar"
+msgstr ""
+
+#: C:\Bitnami\wordpress-4.1.2-0\apps\wordpress\htdocs\wp-content\themes\publisho/functions.php:130
+msgid ""
+"Appears on posts and pages except the optional Front Page template, which "
+"has its own widgets"
+msgstr ""
+
+#: C:\Bitnami\wordpress-4.1.2-0\apps\wordpress\htdocs\wp-content\themes\publisho/functions.php:139
+msgid "Footer Widget One"
+msgstr ""
+
+#: C:\Bitnami\wordpress-4.1.2-0\apps\wordpress\htdocs\wp-content\themes\publisho/functions.php:140
+msgid "Footer widget one, Enable this area from Control Panel >> Main Settings"
+msgstr ""
+
+#: C:\Bitnami\wordpress-4.1.2-0\apps\wordpress\htdocs\wp-content\themes\publisho/functions.php:148
+msgid "Footer Widget Two"
+msgstr ""
+
+#: C:\Bitnami\wordpress-4.1.2-0\apps\wordpress\htdocs\wp-content\themes\publisho/functions.php:149
+msgid "Footer widget two"
+msgstr ""
+
+#: C:\Bitnami\wordpress-4.1.2-0\apps\wordpress\htdocs\wp-content\themes\publisho/functions.php:157
+msgid "Footer Widget Three"
+msgstr ""
+
+#: C:\Bitnami\wordpress-4.1.2-0\apps\wordpress\htdocs\wp-content\themes\publisho/functions.php:158
+msgid "Footer widget three"
+msgstr ""
+
+#: C:\Bitnami\wordpress-4.1.2-0\apps\wordpress\htdocs\wp-content\themes\publisho/functions.php:166
+msgid "Header Widget Area"
+msgstr ""
+
+#: C:\Bitnami\wordpress-4.1.2-0\apps\wordpress\htdocs\wp-content\themes\publisho/functions.php:167
+msgid "Head Widget Area for Ads"
+msgstr ""
+
+#: C:\Bitnami\wordpress-4.1.2-0\apps\wordpress\htdocs\wp-content\themes\publisho/functions.php:190
+#: C:\Bitnami\wordpress-4.1.2-0\apps\wordpress\htdocs\wp-content\themes\publisho/single.php:32
+msgid "Post navigation"
+msgstr ""
+
+#: C:\Bitnami\wordpress-4.1.2-0\apps\wordpress\htdocs\wp-content\themes\publisho/functions.php:191
+msgid "<span class=\"meta-nav\">&larr;</span> Older posts"
+msgstr ""
+
+#: C:\Bitnami\wordpress-4.1.2-0\apps\wordpress\htdocs\wp-content\themes\publisho/functions.php:192
+msgid "Newer posts <span class=\"meta-nav\">&rarr;</span>"
+msgstr ""
+
+#: C:\Bitnami\wordpress-4.1.2-0\apps\wordpress\htdocs\wp-content\themes\publisho/functions.php:217
+msgid "Pingback:"
+msgstr ""
+
+#: C:\Bitnami\wordpress-4.1.2-0\apps\wordpress\htdocs\wp-content\themes\publisho/functions.php:217
+msgid "(Edit)"
+msgstr ""
+
+#: C:\Bitnami\wordpress-4.1.2-0\apps\wordpress\htdocs\wp-content\themes\publisho/functions.php:232
+msgid "Post author"
+msgstr ""
+
+#: C:\Bitnami\wordpress-4.1.2-0\apps\wordpress\htdocs\wp-content\themes\publisho/functions.php:238
+#, php-format
+msgid "%1$s"
+msgstr ""
+
+#: C:\Bitnami\wordpress-4.1.2-0\apps\wordpress\htdocs\wp-content\themes\publisho/functions.php:244
+msgid "Your comment is awaiting moderation."
+msgstr ""
+
+#: C:\Bitnami\wordpress-4.1.2-0\apps\wordpress\htdocs\wp-content\themes\publisho/functions.php:253
+msgid "Reply"
+msgstr ""
+
+#: C:\Bitnami\wordpress-4.1.2-0\apps\wordpress\htdocs\wp-content\themes\publisho/functions.php:272
+#: C:\Bitnami\wordpress-4.1.2-0\apps\wordpress\htdocs\wp-content\themes\publisho/functions.php:275
+msgid ", "
+msgstr ""
+
+#: C:\Bitnami\wordpress-4.1.2-0\apps\wordpress\htdocs\wp-content\themes\publisho/functions.php:286
+#, php-format
+msgid "View all posts by %s"
+msgstr ""
+
+#: C:\Bitnami\wordpress-4.1.2-0\apps\wordpress\htdocs\wp-content\themes\publisho/functions.php:292
+#, php-format
+msgid ""
+"This entry was posted in %1$s and tagged %2$s on %3$s<span class=\"by-author"
+"\"> by %4$s</span>."
+msgstr ""
+
+#: C:\Bitnami\wordpress-4.1.2-0\apps\wordpress\htdocs\wp-content\themes\publisho/functions.php:294
+#, php-format
+msgid ""
+"This entry was posted in %1$s on %3$s<span class=\"by-author\"> by %4$s</"
+"span>."
+msgstr ""
+
+#: C:\Bitnami\wordpress-4.1.2-0\apps\wordpress\htdocs\wp-content\themes\publisho/functions.php:296
+#, php-format
+msgid "This entry was posted on %3$s<span class=\"by-author\"> by %4$s</span>."
+msgstr ""
+
+#: C:\Bitnami\wordpress-4.1.2-0\apps\wordpress\htdocs\wp-content\themes\publisho/header.php:37
+#: C:\Bitnami\wordpress-4.1.2-0\apps\wordpress\htdocs\wp-content\themes\publisho/header.php:65
+msgid "Skip to content"
+msgstr ""
+
+#: C:\Bitnami\wordpress-4.1.2-0\apps\wordpress\htdocs\wp-content\themes\publisho/image.php:26
+#, php-format
+msgid ""
+"<span class=\"meta-prep meta-prep-entry-date\">Published </span> <span class="
+"\"entry-date\"><time class=\"entry-date\" datetime=\"%1$s\">%2$s</time></"
+"span> at <a href=\"%3$s\" title=\"Link to full-size image\">%4$s &times; "
+"%5$s</a> in <a href=\"%6$s\" title=\"Return to %7$s\" rel=\"gallery\">%8$s</"
+"a>."
+msgstr ""
+
+#: C:\Bitnami\wordpress-4.1.2-0\apps\wordpress\htdocs\wp-content\themes\publisho/image.php:41
+msgid "&larr; Previous"
+msgstr ""
+
+#: C:\Bitnami\wordpress-4.1.2-0\apps\wordpress\htdocs\wp-content\themes\publisho/image.php:42
+msgid "Next &rarr;"
+msgstr ""
+
+#: C:\Bitnami\wordpress-4.1.2-0\apps\wordpress\htdocs\wp-content\themes\publisho/inc/themonic-customizer.php:13
+#: C:\Bitnami\wordpress-4.1.2-0\apps\wordpress\htdocs\wp-content\themes\publisho/inc/themonic-customizer.php:19
+msgid "Logo"
+msgstr ""
+
+#: C:\Bitnami\wordpress-4.1.2-0\apps\wordpress\htdocs\wp-content\themes\publisho/inc/themonic-customizer.php:40
+msgid "Social"
+msgstr ""
+
+#: C:\Bitnami\wordpress-4.1.2-0\apps\wordpress\htdocs\wp-content\themes\publisho/inc/themonic-customizer.php:45
+msgid "Twitter url"
+msgstr ""
+
+#: C:\Bitnami\wordpress-4.1.2-0\apps\wordpress\htdocs\wp-content\themes\publisho/inc/themonic-customizer.php:51
+msgid "Facebook url"
+msgstr ""
+
+#: C:\Bitnami\wordpress-4.1.2-0\apps\wordpress\htdocs\wp-content\themes\publisho/inc/themonic-customizer.php:57
+msgid "Google Plus url"
+msgstr ""
+
+#: C:\Bitnami\wordpress-4.1.2-0\apps\wordpress\htdocs\wp-content\themes\publisho/inc/themonic-customizer.php:63
+msgid "RSS url"
+msgstr ""
+
+#: C:\Bitnami\wordpress-4.1.2-0\apps\wordpress\htdocs\wp-content\themes\publisho/inc/themonic-customizer.php:69
+msgid "Front Page Category Selection"
+msgstr ""
+
+#: C:\Bitnami\wordpress-4.1.2-0\apps\wordpress\htdocs\wp-content\themes\publisho/inc/themonic-customizer.php:79
+msgid "Top Featured Posts"
+msgstr ""
+
+#: C:\Bitnami\wordpress-4.1.2-0\apps\wordpress\htdocs\wp-content\themes\publisho/inc/themonic-customizer.php:86
+msgid "PRO Version"
+msgstr ""
+
+#: C:\Bitnami\wordpress-4.1.2-0\apps\wordpress\htdocs\wp-content\themes\publisho/inc/themonic-customizer.php:96
+msgid "Publisho Pro"
+msgstr ""
+
+#: C:\Bitnami\wordpress-4.1.2-0\apps\wordpress\htdocs\wp-content\themes\publisho/inc/themonic-customizer.php:105
+msgid ""
+"Learn more about Publisho Pro with unlimited colors, new styles and premium "
+"features"
+msgstr ""
+
+#: C:\Bitnami\wordpress-4.1.2-0\apps\wordpress\htdocs\wp-content\themes\publisho/inc/themonic-customizer.php:114
+msgid "Check Out PRO Version"
+msgstr ""
+
+#: C:\Bitnami\wordpress-4.1.2-0\apps\wordpress\htdocs\wp-content\themes\publisho/inc/widgets-old.php:17
+#: C:\Bitnami\wordpress-4.1.2-0\apps\wordpress\htdocs\wp-content\themes\publisho/inc/widgets.php:17
+#: C:\Bitnami\wordpress-4.1.2-0\apps\wordpress\htdocs\wp-content\themes\publisho/inc/widgets/widgets.php:12
+msgid "Title:"
+msgstr ""
+
+#: C:\Bitnami\wordpress-4.1.2-0\apps\wordpress\htdocs\wp-content\themes\publisho/inc/widgets-old.php:18
+#: C:\Bitnami\wordpress-4.1.2-0\apps\wordpress\htdocs\wp-content\themes\publisho/inc/widgets.php:18
+#: C:\Bitnami\wordpress-4.1.2-0\apps\wordpress\htdocs\wp-content\themes\publisho/inc/widgets/widgets.php:13
+msgid "Number of Posts Displayed:"
+msgstr ""
+
+#: C:\Bitnami\wordpress-4.1.2-0\apps\wordpress\htdocs\wp-content\themes\publisho/inc/widgets/widgets.php:82
+msgid "Publisho Head Widget Ad"
+msgstr ""
+
+#: C:\Bitnami\wordpress-4.1.2-0\apps\wordpress\htdocs\wp-content\themes\publisho/inc/widgets/widgets.php:84
+msgid "Header Banner/Image upto 728x90"
+msgstr ""
+
+#: C:\Bitnami\wordpress-4.1.2-0\apps\wordpress\htdocs\wp-content\themes\publisho/inc/widgets/widgets.php:98
+msgid "Header Ads"
+msgstr ""
+
+#: C:\Bitnami\wordpress-4.1.2-0\apps\wordpress\htdocs\wp-content\themes\publisho/inc/widgets/widgets.php:139
+msgid "Title"
+msgstr ""
+
+#: C:\Bitnami\wordpress-4.1.2-0\apps\wordpress\htdocs\wp-content\themes\publisho/inc/widgets/widgets.php:140
+msgid "Header Banner Ads"
+msgstr ""
+
+#: C:\Bitnami\wordpress-4.1.2-0\apps\wordpress\htdocs\wp-content\themes\publisho/inc/widgets/widgets.php:144
+msgid "Ads Link"
+msgstr ""
+
+#: C:\Bitnami\wordpress-4.1.2-0\apps\wordpress\htdocs\wp-content\themes\publisho/inc/widgets/widgets.php:145
+msgid "URL"
+msgstr ""
+
+#: C:\Bitnami\wordpress-4.1.2-0\apps\wordpress\htdocs\wp-content\themes\publisho/inc/widgets/widgets.php:149
+msgid "Link Type"
+msgstr ""
+
+#: C:\Bitnami\wordpress-4.1.2-0\apps\wordpress\htdocs\wp-content\themes\publisho/inc/widgets/widgets.php:158
+msgid "Ads Image"
+msgstr ""
+
+#: C:\Bitnami\wordpress-4.1.2-0\apps\wordpress\htdocs\wp-content\themes\publisho/inc/widgets/widgets.php:168
+msgid "Upload Image"
+msgstr ""
+
+#: C:\Bitnami\wordpress-4.1.2-0\apps\wordpress\htdocs\wp-content\themes\publisho/search.php:18
+#, php-format
+msgid "Search Results for: %s"
+msgstr ""
+
+#: C:\Bitnami\wordpress-4.1.2-0\apps\wordpress\htdocs\wp-content\themes\publisho/search.php:38
+msgid ""
+"Sorry, but nothing matched your search criteria. Please try again with some "
+"different keywords."
+msgstr ""
+
+#: C:\Bitnami\wordpress-4.1.2-0\apps\wordpress\htdocs\wp-content\themes\publisho/sidebar.php:20
+msgid "Recent Posts"
+msgstr ""
+
+#: C:\Bitnami\wordpress-4.1.2-0\apps\wordpress\htdocs\wp-content\themes\publisho/sidebar.php:24
+msgid "Pages"
+msgstr ""
+
+#: C:\Bitnami\wordpress-4.1.2-0\apps\wordpress\htdocs\wp-content\themes\publisho/sidebar.php:29
+msgid "Tag Cloud"
+msgstr ""
+
+#: C:\Bitnami\wordpress-4.1.2-0\apps\wordpress\htdocs\wp-content\themes\publisho/single.php:33
+msgctxt "Previous post link"
+msgid "&larr;"
+msgstr ""
+
+#: C:\Bitnami\wordpress-4.1.2-0\apps\wordpress\htdocs\wp-content\themes\publisho/single.php:34
+msgctxt "Next post link"
+msgid "&rarr;"
+msgstr ""
+
+#: C:\Bitnami\wordpress-4.1.2-0\apps\wordpress\htdocs\wp-content\themes\publisho/tag.php:19
+#, php-format
+msgid "Tag Archives: %s"
+msgstr ""

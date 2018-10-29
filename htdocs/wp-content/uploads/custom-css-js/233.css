@@ -1,0 +1,22 @@
+<!-- start Simple Custom CSS and JS -->
+<style type="text/css">
+/* Add your CSS code here.
+                     
+For example:
+.example {
+    color: red;
+}
+
+For brushing up on your CSS knowledge, check out http://www.w3schools.com/css/css_syntax.asp
+
+End of comment */ 
+
+#slider .featured-title span {
+font-size: 22px !important;
+color: red;
+}
+ 
+#slider .featured-excerpt span {
+font-size: 18px !important;
+color: blue;</style>
+<!-- end Simple Custom CSS and JS -->

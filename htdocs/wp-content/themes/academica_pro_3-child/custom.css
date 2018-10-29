@@ -1,0 +1,190 @@
+/* widget size altering
+*/
+div.menu-main-menu-bar-container {
+	width: 1200px;
+}
+
+.widget.widget_wp_sidebarlogin.widget-blue {
+	width: 340px;
+}
+
+.widget.wpzoom-text.widget-gold {
+	width: 340px;
+}
+
+.widget.milestone-widget.widget-none {
+	width: 340px;
+}
+
+.widget.zoom-social-icons-widget.widget-none {
+	width: 340px;
+}
+
+.widget.widget_mailchimpsf_widget.widget-none {
+	width: 340px;
+}
+
+.widget.jetpack_subscription_widget.widget-none {
+	width: 340px;
+}
+
+/*
+ * read more link
+ */
+a.read-link {
+	text-transform: lowercase;
+	color: #7E1E0A;
+	text-decoration: none;
+}
+
+a.read-link:hover {
+	text-decoration: none;
+}
+
+a.read-link:visited {
+	color: #7E1E0A;
+}
+
+/*
+ * dashbord buttons
+ */
+img.wp-image-7424 {
+	border-radius: 35px;
+	box-shadow: 5px 5px 5px grey;
+}
+img.wp-image-7424:hover {
+	opacity: 0.5;
+}
+
+img.wp-image-7425 {
+	border-radius: 35px;
+		box-shadow: 5px 5px 5px grey;
+}
+img.wp-image-7425:hover {
+	opacity: 0.5;
+} 
+
+img.wp-image-7451 {
+	border-radius: 35px;
+		box-shadow: 5px 5px 5px grey;
+}
+img.wp-image-7451:hover {
+	opacity: 0.5;
+} 
+
+img.wp-image-7245 {
+	border-radius: 35px;
+		box-shadow: 5px 5px 5px grey;
+}
+img.wp-image-7245:hover {
+	opacity: 0.5;
+} 
+
+img.wp-image-7390 {
+	border-radius: 35px;
+	box-shadow: 5px 5px 5px grey;
+}
+img.wp-image-7390:hover {
+	opacity: 0.5;
+}
+
+img.wp-image-7236 {
+	border-radius: 35px;
+		box-shadow: 5px 5px 5px grey;
+}
+img.wp-image-7236:hover {
+	opacity: 0.5;
+} 
+
+img.wp-image-7421 {
+	border-radius: 35px;
+	box-shadow: 5px 5px 5px grey;
+}
+img.wp-image-7421:hover {
+	opacity: 0.5;
+}
+
+img.wp-image-7238 {
+	border-radius: 35px;
+		box-shadow: 5px 5px 5px grey;
+}
+img.wp-image-7238:hover {
+	opacity: 0.5;
+} 
+
+/*
+ * register now button
+ */
+a.wpz-sc-button {
+	box-shadow: 2px 2px 2px grey;
+	float: left;
+}
+
+/*
+ * My account menu button
+ */
+#menu-item-7112 {
+	float: right;
+}
+
+/*
+ * Exclusive menu offers banner
+ */
+div.paoc-popup-modal-cnt {
+	outline: 2px solid grey;
+	background-color: #1b3359;
+	color: #eff2f7;
+}
+img.popupaoc-img {
+	border-radius: 10px;
+	box-shadow: 1px 1px 2px #6c6d6d;
+	opacity: 0.95;
+}
+img.popupaoc-img:hover {
+	opacity: 0.8;
+} 
+
+/*
+ * Give us a call on header
+ */
+span.action {
+	float: left;
+}
+
+li.zoom-social_icons-list__item {
+	float: right;
+}
+
+/*
+ * Shop 
+ */
+
+li.product-category {
+	border-radius: 15px;
+} 
+
+li.product-category:hover {
+	opacity: 0.8;
+} 
+
+li.product:hover {
+	opacity: 0.8;
+}
+
+img.attachment-woocommerce_thumbnail {
+	border-radius: 15px;
+} 
+
+/*
+ * Meet the Team table
+ */
+table.table-team {
+  border-collapse: collapse;
+  border-style: hidden;
+}
+table.table-team td {
+  border: 3px solid #f6f6f6;
+	padding-left: 25px;
+}
+
+

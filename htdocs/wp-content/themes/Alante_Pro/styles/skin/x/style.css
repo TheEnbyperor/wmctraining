@@ -1,0 +1,206 @@
+/*
+ Theme:  Alante Pro
+ Skin:   X
+*/
+
+/* General */
+h1,h2,h3,h4,h5,h6 {
+	font-family: 'Dancing Script', cursive;
+}
+
+/* Services */
+.services-builder .iconmain h3 {
+	font-family: PT Sans, Helvetica, Arial;
+}
+
+/* Pre Header */
+#pre-header {
+	background: #b3000c;
+	border: none;
+}
+#pre-header .header-links li a, 
+#pre-header-social li,
+#pre-header-social li a,
+#pre-header-search input {
+	color: #fff;
+}
+#pre-header .header-links .menu-hover > a,
+#pre-header .header-links > ul > li > a:hover {
+	background: #d9000f;
+}
+#pre-header .header-links .sub-menu li:hover {
+	background: #d9000f;
+}
+#pre-header .header-links .sub-menu {
+	background: #b3000c;
+	border-color: #d9000f;
+}
+#pre-header .header-links .sub-menu a {
+	border: none;
+	padding: 8px 5px;
+}
+#pre-header .header-links .sub-menu a:hover {
+	color: #fff;
+}
+
+/* Header */
+
+/* Intro */
+#intro.option1 {
+	background: #b3000c;
+	border: none;
+}
+#intro.option1 #intro-core {
+	border: none;
+}
+
+/* Blog */
+.blog-grid {
+}
+.blog-article {
+	color: #fff;
+	background: #b3000c;
+}
+
+.blog-article .entry-content .blog-title {
+	font-size: 26px;
+}
+.blog-article .entry-content .blog-title a {
+	font-weight: 400;
+	color: #fff;
+}
+.blog-article .entry-meta {
+	color: #fff;
+}
+.blog-article .comment a:before {
+	color: #fff;
+}
+.blog-article .more-link span {
+	color: #fff;
+	background: #000;
+}
+.blog-article .more-link i {
+	color: #000;
+	background: #fff;
+}
+.blog-article .more-link a:hover span {
+	color: #000;
+	background: #fff;
+}
+.blog-article .more-link a:hover i {
+	color: #fff;
+	background: #000;
+}
+
+/* Blog - Sticky Post */
+.blog-article.sticky  {
+	color: inherit;
+	background: #fff;
+}
+.blog-article.sticky .entry-meta {
+	color: #000;
+}
+.blog-article.sticky .entry-meta a {
+	color: #777;
+}
+.blog-article.sticky .entry-meta a:hover {
+	color: #000;
+}
+.blog-article.sticky .entry-content .blog-title a {
+	color: inherit;
+}
+.blog-article.sticky .more-link span {
+	color: #fff;
+	background: #000;
+}
+.blog-article.sticky .more-link i {
+	color: #fff;
+	background: #b3000c;
+}
+.blog-article.sticky .more-link a:hover span {
+	color: #fff;
+	background: #b3000c;
+}
+.blog-article.sticky .more-link a:hover i {
+	color: #fff;
+	background: #000;
+}
+
+/* Post Navigation */
+.nav-previous a,
+.nav-next a {
+	color: #fff;
+	background: #b3000c;
+	border-color: #b3000c;
+}
+.nav-previous a:hover,
+.nav-next a:hover {
+	background: #000;
+}
+.nav-previous a:hover .meta-nav,
+.nav-next a:hover .meta-nav {
+}
+.nav-previous a .meta-icon,
+.nav-next a .meta-icon {
+}
+
+/* Author Bio */
+#author-bio {
+	color: #fff;
+	background: #b3000c;
+	border-color: #d9000f;
+}
+#author-bio img {
+}
+#author-bio h3 {
+	color: #fff;
+	font-size: 25px;
+}
+#author-image {
+}
+#author-text {
+}
+
+.commentlist article {
+	color: #fff;
+	background: #b3000c;
+	border-color: #d9000f;
+}
+.comment-meta a {
+	color: #fff;
+}
+
+/* Posts & Pages */
+
+/* Pagination */
+.navigation.pagination .nav-links a,
+.navigation.pagination .nav-links span {
+}
+.navigation.pagination .nav-links .dots {
+}	
+.navigation.pagination .nav-links .dots,
+.navigation.pagination .nav-links .dots:hover {
+}
+
+/* Sidebars */
+#sidebar .widget {
+}
+#sidebar h3.widget-title {
+	font-size: 20px;
+	font-weight: 600;
+}
+#sidebar h3.widget-title:after {
+}
+#sidebar .widget ul {
+}
+#sidebar .widget li a {
+}
+
+#sidebar .widget_tag_cloud a {
+}
+#sidebar .widget_tag_cloud a:hover { 
+}
+
+/* Footer */
+
+/* Responsive */

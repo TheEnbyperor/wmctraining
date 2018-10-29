@@ -1,0 +1,881 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: WooRewards\n"
+"POT-Creation-Date: 2018-08-02 22:18+0200\n"
+"PO-Revision-Date: 2018-08-02 22:20+0200\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"Language: de_DE\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Generator: Poedit 2.1.1\n"
+"X-Poedit-Basepath: ..\n"
+"X-Poedit-Flags-xgettext: --add-comments=translators:\n"
+"X-Poedit-WPHeader: woorewards.php\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-KeywordsList: __;_e;_n:1,2;_x:1,2c;_ex:1,2c;_nx:4c,1,2;esc_attr__;"
+"esc_attr_e;esc_attr_x:1,2c;esc_html__;esc_html_e;esc_html_x:1,2c;_n_noop:1,2;"
+"_nx_noop:3c,1,2;__ngettext_noop:1,2\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPathExcluded-0: *.js\n"
+
+#: assets/tgm/class-tgm-plugin-activation.php:334
+msgid "Install Required Plugins"
+msgstr "Erforderliche Plugins installieren"
+
+#: assets/tgm/class-tgm-plugin-activation.php:335
+msgid "Install Plugins"
+msgstr "Plugins installieren"
+
+#. translators: %s: plugin name.
+#: assets/tgm/class-tgm-plugin-activation.php:337
+#, php-format
+msgid "Installing Plugin: %s"
+msgstr "Installiere Plugin: %s"
+
+#. translators: %s: plugin name.
+#: assets/tgm/class-tgm-plugin-activation.php:339
+#, php-format
+msgid "Updating Plugin: %s"
+msgstr "Aktualisiere Plugin: %s"
+
+#: assets/tgm/class-tgm-plugin-activation.php:340
+msgid "Something went wrong with the plugin API."
+msgstr "Es ist ein Fehler mit der Plugin-API aufgetreten."
+
+#. translators: 1: plugin name(s).
+#: assets/tgm/class-tgm-plugin-activation.php:343
+#, php-format
+msgid "This theme requires the following plugin: %1$s."
+msgid_plural "This theme requires the following plugins: %1$s."
+msgstr[0] ""
+msgstr[1] ""
+
+#. translators: 1: plugin name(s).
+#: assets/tgm/class-tgm-plugin-activation.php:349
+#, php-format
+msgid "This theme recommends the following plugin: %1$s."
+msgid_plural "This theme recommends the following plugins: %1$s."
+msgstr[0] ""
+msgstr[1] ""
+
+#. translators: 1: plugin name(s).
+#: assets/tgm/class-tgm-plugin-activation.php:355
+#, php-format
+msgid ""
+"The following plugin needs to be updated to its latest version to ensure "
+"maximum compatibility with this theme: %1$s."
+msgid_plural ""
+"The following plugins need to be updated to their latest version to ensure "
+"maximum compatibility with this theme: %1$s."
+msgstr[0] ""
+msgstr[1] ""
+
+#. translators: 1: plugin name(s).
+#: assets/tgm/class-tgm-plugin-activation.php:361
+#, php-format
+msgid "There is an update available for: %1$s."
+msgid_plural "There are updates available for the following plugins: %1$s."
+msgstr[0] ""
+msgstr[1] ""
+
+#. translators: 1: plugin name(s).
+#: assets/tgm/class-tgm-plugin-activation.php:367
+#, php-format
+msgid "The following required plugin is currently inactive: %1$s."
+msgid_plural "The following required plugins are currently inactive: %1$s."
+msgstr[0] ""
+msgstr[1] ""
+
+#. translators: 1: plugin name(s).
+#: assets/tgm/class-tgm-plugin-activation.php:373
+#, php-format
+msgid "The following recommended plugin is currently inactive: %1$s."
+msgid_plural "The following recommended plugins are currently inactive: %1$s."
+msgstr[0] ""
+msgstr[1] ""
+
+#: assets/tgm/class-tgm-plugin-activation.php:378
+msgid "Begin installing plugin"
+msgid_plural "Begin installing plugins"
+msgstr[0] "Plugin Installation beginnen"
+msgstr[1] ""
+
+#: assets/tgm/class-tgm-plugin-activation.php:383
+msgid "Begin updating plugin"
+msgid_plural "Begin updating plugins"
+msgstr[0] "Plugin Update beginnen"
+msgstr[1] ""
+
+#: assets/tgm/class-tgm-plugin-activation.php:388
+msgid "Begin activating plugin"
+msgid_plural "Begin activating plugins"
+msgstr[0] "Plugin Aktivierung beginnen"
+msgstr[1] ""
+
+#: assets/tgm/class-tgm-plugin-activation.php:392
+msgid "Return to Required Plugins Installer"
+msgstr "Zurück zur Installation der benötigten Plugins"
+
+#: assets/tgm/class-tgm-plugin-activation.php:393
+#: assets/tgm/class-tgm-plugin-activation.php:920
+#: assets/tgm/class-tgm-plugin-activation.php:2626
+#: assets/tgm/class-tgm-plugin-activation.php:3673
+msgid "Return to the Dashboard"
+msgstr "Zurück zum Dashboard"
+
+#: assets/tgm/class-tgm-plugin-activation.php:394
+#: assets/tgm/class-tgm-plugin-activation.php:3252
+msgid "Plugin activated successfully."
+msgstr "Plugin erfolgreich aktiviert."
+
+#: assets/tgm/class-tgm-plugin-activation.php:395
+#: assets/tgm/class-tgm-plugin-activation.php:3045
+msgid "The following plugin was activated successfully:"
+msgid_plural "The following plugins were activated successfully:"
+msgstr[0] "Das folgende Plugin wurde erfolgreich aktiviert:"
+msgstr[1] ""
+
+#. translators: 1: plugin name.
+#: assets/tgm/class-tgm-plugin-activation.php:397
+#, php-format
+msgid "No action taken. Plugin %1$s was already active."
+msgstr "Keine Maßnahmen ergriffen. Plugin %1$s war bereits aktiv."
+
+#. translators: 1: plugin name.
+#: assets/tgm/class-tgm-plugin-activation.php:399
+#, php-format
+msgid ""
+"Plugin not activated. A higher version of %s is needed for this theme. "
+"Please update the plugin."
+msgstr ""
+"Plugin wurde nicht aktiviert. Eine neuere Version des %s ist für dieses "
+"Theme erforderlich. Bitte aktualisieren Sie das Plugin."
+
+#. translators: 1: dashboard link.
+#: assets/tgm/class-tgm-plugin-activation.php:401
+#, php-format
+msgid "All plugins installed and activated successfully. %1$s"
+msgstr "Alle Plugins wurden erfolgreich installiert und aktiviert. %1$s"
+
+#: assets/tgm/class-tgm-plugin-activation.php:402
+msgid "Dismiss this notice"
+msgstr "Diesen Hinweis ausblenden"
+
+#: assets/tgm/class-tgm-plugin-activation.php:403
+msgid ""
+"There are one or more required or recommended plugins to install, update or "
+"activate."
+msgstr ""
+"Es existieren ein oder mehrere benötigte oder empfohlene Plugins, die "
+"installiert, aktualisiert oder aktiviert werden müssen."
+
+#: assets/tgm/class-tgm-plugin-activation.php:404
+msgid "Please contact the administrator of this site for help."
+msgstr "Bitte kontaktieren Sie den Administrator dieser Website für Hilfe."
+
+#: assets/tgm/class-tgm-plugin-activation.php:607
+msgid "This plugin needs to be updated to be compatible with your theme."
+msgstr ""
+"Dieses Plugin muss aktualisiert werden, um mit Ihrem Theme kompatibel zu "
+"sein."
+
+#: assets/tgm/class-tgm-plugin-activation.php:608
+msgid "Update Required"
+msgstr "Aktualisierung erforderlich"
+
+#: assets/tgm/class-tgm-plugin-activation.php:725
+msgid "Set the parent_slug config variable instead."
+msgstr "Verwenden Sie stattdessen die Variable parent_slug."
+
+#: assets/tgm/class-tgm-plugin-activation.php:1027
+msgid ""
+"The remote plugin package does not contain a folder with the desired slug "
+"and renaming did not work."
+msgstr ""
+"Das Remote-Plugin-Paket enthält keinen Ordner mit dem gewünschten Kürzel und "
+"eine Umbenennung hat nicht funktioniert."
+
+#: assets/tgm/class-tgm-plugin-activation.php:1027
+#: assets/tgm/class-tgm-plugin-activation.php:1030
+msgid ""
+"Please contact the plugin provider and ask them to package their plugin "
+"according to the WordPress guidelines."
+msgstr ""
+"Bitte kontaktieren Sie den Plugin-Anbieter und bitten Sie ihn, seine Plugins "
+"nach den Wordpress-Richtlinien zu komprimieren."
+
+#: assets/tgm/class-tgm-plugin-activation.php:1030
+msgid ""
+"The remote plugin package consists of more than one file, but the files are "
+"not packaged in a folder."
+msgstr ""
+"Das Remote-Plugin-Paket besteht aus mehreren Dateien, aber die Dateien sind "
+"nicht in einem Ordner gepackt."
+
+#: assets/tgm/class-tgm-plugin-activation.php:1214
+#: assets/tgm/class-tgm-plugin-activation.php:3041
+msgctxt "plugin A *and* plugin B"
+msgid "and"
+msgstr "und"
+
+#. translators: %s: version number
+#: assets/tgm/class-tgm-plugin-activation.php:2075
+#, php-format
+msgid "TGMPA v%s"
+msgstr "TGMPA v%s"
+
+#: assets/tgm/class-tgm-plugin-activation.php:2366
+msgid "Required"
+msgstr "Erforderlich"
+
+#: assets/tgm/class-tgm-plugin-activation.php:2369
+msgid "Recommended"
+msgstr "Empfohlen"
+
+#: assets/tgm/class-tgm-plugin-activation.php:2385
+msgid "WordPress Repository"
+msgstr "WordPress Repository"
+
+#: assets/tgm/class-tgm-plugin-activation.php:2388
+msgid "External Source"
+msgstr "Externe Quelle"
+
+#: assets/tgm/class-tgm-plugin-activation.php:2391
+msgid "Pre-Packaged"
+msgstr "Pre-Packaged"
+
+#: assets/tgm/class-tgm-plugin-activation.php:2408
+msgid "Not Installed"
+msgstr "Nicht installiert"
+
+#: assets/tgm/class-tgm-plugin-activation.php:2412
+msgid "Installed But Not Activated"
+msgstr "Installiert aber nicht aktiviert"
+
+#: assets/tgm/class-tgm-plugin-activation.php:2414
+msgid "Active"
+msgstr "Aktiv"
+
+#: assets/tgm/class-tgm-plugin-activation.php:2420
+msgid "Required Update not Available"
+msgstr "Erforderliche Aktualisierung nicht verfügbar"
+
+#: assets/tgm/class-tgm-plugin-activation.php:2423
+msgid "Requires Update"
+msgstr "Update erforderlich"
+
+#: assets/tgm/class-tgm-plugin-activation.php:2426
+msgid "Update recommended"
+msgstr "Update empfohlen"
+
+#. translators: 1: install status, 2: update status
+#: assets/tgm/class-tgm-plugin-activation.php:2435
+#, php-format
+msgctxt "Install/Update Status"
+msgid "%1$s, %2$s"
+msgstr "%1$s, %2$s"
+
+#. translators: 1: number of plugins.
+#: assets/tgm/class-tgm-plugin-activation.php:2481
+#, php-format
+msgctxt "plugins"
+msgid "All <span class=\"count\">(%s)</span>"
+msgid_plural "All <span class=\"count\">(%s)</span>"
+msgstr[0] ""
+msgstr[1] ""
+
+#. translators: 1: number of plugins.
+#: assets/tgm/class-tgm-plugin-activation.php:2485
+#, php-format
+msgid "To Install <span class=\"count\">(%s)</span>"
+msgid_plural "To Install <span class=\"count\">(%s)</span>"
+msgstr[0] ""
+msgstr[1] ""
+
+#. translators: 1: number of plugins.
+#: assets/tgm/class-tgm-plugin-activation.php:2489
+#, php-format
+msgid "Update Available <span class=\"count\">(%s)</span>"
+msgid_plural "Update Available <span class=\"count\">(%s)</span>"
+msgstr[0] ""
+msgstr[1] ""
+
+#. translators: 1: number of plugins.
+#: assets/tgm/class-tgm-plugin-activation.php:2493
+#, php-format
+msgid "To Activate <span class=\"count\">(%s)</span>"
+msgid_plural "To Activate <span class=\"count\">(%s)</span>"
+msgstr[0] ""
+msgstr[1] ""
+
+#: assets/tgm/class-tgm-plugin-activation.php:2575
+msgctxt "as in: \"version nr unknown\""
+msgid "unknown"
+msgstr "unbekannt"
+
+#: assets/tgm/class-tgm-plugin-activation.php:2583
+msgid "Installed version:"
+msgstr "Installierte Version:"
+
+#: assets/tgm/class-tgm-plugin-activation.php:2591
+msgid "Minimum required version:"
+msgstr "Minimal erforderliche Version:"
+
+#: assets/tgm/class-tgm-plugin-activation.php:2603
+msgid "Available version:"
+msgstr "Verfügbare Version:"
+
+#: assets/tgm/class-tgm-plugin-activation.php:2626
+msgid "No plugins to install, update or activate."
+msgstr "Keine Plugins zum installieren, aktualisieren oder aktivieren."
+
+#: assets/tgm/class-tgm-plugin-activation.php:2640
+msgid "Plugin"
+msgstr "Plugin"
+
+#: assets/tgm/class-tgm-plugin-activation.php:2641
+msgid "Source"
+msgstr "Quelle"
+
+#: assets/tgm/class-tgm-plugin-activation.php:2642
+msgid "Type"
+msgstr "Typ"
+
+#: assets/tgm/class-tgm-plugin-activation.php:2646
+msgid "Version"
+msgstr "Version"
+
+#: assets/tgm/class-tgm-plugin-activation.php:2647
+msgid "Status"
+msgstr "Status"
+
+#. translators: %2$s: plugin name in screen reader markup
+#: assets/tgm/class-tgm-plugin-activation.php:2696
+#, php-format
+msgid "Install %2$s"
+msgstr "Installiere %2$s"
+
+#. translators: %2$s: plugin name in screen reader markup
+#: assets/tgm/class-tgm-plugin-activation.php:2701
+#, php-format
+msgid "Update %2$s"
+msgstr "Aktualisiere %2$s"
+
+#. translators: %2$s: plugin name in screen reader markup
+#: assets/tgm/class-tgm-plugin-activation.php:2707
+#, php-format
+msgid "Activate %2$s"
+msgstr "Aktiviere %2$s"
+
+#: assets/tgm/class-tgm-plugin-activation.php:2777
+msgid "Upgrade message from the plugin author:"
+msgstr "Upgrade-Nachricht vom Plugin-Autor:"
+
+#: assets/tgm/class-tgm-plugin-activation.php:2810
+msgid "Install"
+msgstr "Installieren"
+
+#: assets/tgm/class-tgm-plugin-activation.php:2816
+msgid "Update"
+msgstr "Aktualisieren"
+
+#: assets/tgm/class-tgm-plugin-activation.php:2819
+msgid "Activate"
+msgstr "Aktivieren"
+
+#: assets/tgm/class-tgm-plugin-activation.php:2850
+msgid "No plugins were selected to be installed. No action taken."
+msgstr ""
+"Es wurden keine Plugins zur Installation ausgewählt. Es wurde nichts "
+"unternommen."
+
+#: assets/tgm/class-tgm-plugin-activation.php:2852
+msgid "No plugins were selected to be updated. No action taken."
+msgstr ""
+"Es wurden keine Plugins zur Aktualisierung ausgewählt. Es wurde nichts "
+"unternommen."
+
+#: assets/tgm/class-tgm-plugin-activation.php:2893
+msgid "No plugins are available to be installed at this time."
+msgstr "Derzeit stehen keine Plugins zur Installation zur Verfügung."
+
+#: assets/tgm/class-tgm-plugin-activation.php:2895
+msgid "No plugins are available to be updated at this time."
+msgstr "Derzeit stehen keine Plugins zur Aktualisierung zur Verfügung."
+
+#: assets/tgm/class-tgm-plugin-activation.php:3001
+msgid "No plugins were selected to be activated. No action taken."
+msgstr ""
+"Es wurden keine Plugins zur Aktivierung ausgewählt. Es wurde nichts "
+"unternommen."
+
+#: assets/tgm/class-tgm-plugin-activation.php:3027
+msgid "No plugins are available to be activated at this time."
+msgstr "Derzeit stehen keine Plugins zur Aktivierung zur Verfügung."
+
+#: assets/tgm/class-tgm-plugin-activation.php:3251
+msgid "Plugin activation failed."
+msgstr "Plugin-Aktivierung fehlgeschlagen."
+
+#. translators: 1: plugin name, 2: action number 3: total number of actions.
+#: assets/tgm/class-tgm-plugin-activation.php:3591
+#, php-format
+msgid "Updating Plugin %1$s (%2$d/%3$d)"
+msgstr "Aktualisiere Plugin %1$s (%2$d/%3$d)"
+
+#. translators: 1: plugin name, 2: error message.
+#: assets/tgm/class-tgm-plugin-activation.php:3594
+#, php-format
+msgid "An error occurred while installing %1$s: <strong>%2$s</strong>."
+msgstr ""
+"Während der Installation von %1$s: <strong>%2$s</strong> ist ein Fehler "
+"aufgetreten."
+
+#. translators: 1: plugin name.
+#: assets/tgm/class-tgm-plugin-activation.php:3596
+#, php-format
+msgid "The installation of %1$s failed."
+msgstr "Die Installation von %1$s ist fehlgeschlagen."
+
+#: assets/tgm/class-tgm-plugin-activation.php:3600
+msgid ""
+"The installation and activation process is starting. This process may take a "
+"while on some hosts, so please be patient."
+msgstr ""
+"Der Installations- und Aktivierungsprozess wurde gestartet. Dies kann eine "
+"Weile dauern, haben Sie etwas Geduld."
+
+#. translators: 1: plugin name.
+#: assets/tgm/class-tgm-plugin-activation.php:3602
+#, php-format
+msgid "%1$s installed and activated successfully."
+msgstr "%1$s erfolgreich installiert und aktiviert."
+
+#: assets/tgm/class-tgm-plugin-activation.php:3602
+#: assets/tgm/class-tgm-plugin-activation.php:3610
+msgid "Show Details"
+msgstr "Details anzeigen"
+
+#: assets/tgm/class-tgm-plugin-activation.php:3602
+#: assets/tgm/class-tgm-plugin-activation.php:3610
+msgid "Hide Details"
+msgstr "Details ausblenden"
+
+#: assets/tgm/class-tgm-plugin-activation.php:3603
+msgid "All installations and activations have been completed."
+msgstr "Alle Installationen und Aktivierungen sind abgeschlossen."
+
+#. translators: 1: plugin name, 2: action number 3: total number of actions.
+#: assets/tgm/class-tgm-plugin-activation.php:3605
+#, php-format
+msgid "Installing and Activating Plugin %1$s (%2$d/%3$d)"
+msgstr "Installiere und aktiviere Plugin %1$s (%2$d/%3$d)"
+
+#: assets/tgm/class-tgm-plugin-activation.php:3608
+msgid ""
+"The installation process is starting. This process may take a while on some "
+"hosts, so please be patient."
+msgstr ""
+"Der Installationsprozess wird gestartet. Dieser Prozess kann auf manchen "
+"Servern etwas Zeit in Anspruch nehmen. Bitte haben Sie Geduld."
+
+#. translators: 1: plugin name.
+#: assets/tgm/class-tgm-plugin-activation.php:3610
+#, php-format
+msgid "%1$s installed successfully."
+msgstr "%1$s wurde erfolgreich installiert."
+
+#: assets/tgm/class-tgm-plugin-activation.php:3611
+msgid "All installations have been completed."
+msgstr "Alle Installationen wurden abgeschlossen."
+
+#. translators: 1: plugin name, 2: action number 3: total number of actions.
+#: assets/tgm/class-tgm-plugin-activation.php:3613
+#, php-format
+msgid "Installing Plugin %1$s (%2$d/%3$d)"
+msgstr "Installiere Plugin %1$s (%2$d/%3$d)"
+
+#. Plugin Name of the plugin/theme
+#: include/admin.php:44
+msgid "WooRewards"
+msgstr "Woorewards"
+
+#: include/admin.php:48
+msgid "General Settings"
+msgstr "Allgemeine Einstellungen"
+
+#: include/admin.php:54 include/admin.php:76
+msgid "Points History and Management"
+msgstr "Punkte Geschichte und Management"
+
+#: include/admin.php:61 include/admin.php:106
+msgid "Email Settings"
+msgstr "E-Mail Einstellungen"
+
+#: include/admin.php:77
+msgid "Here you can see and manage your customers reward points"
+msgstr ""
+
+#: include/admin.php:78
+msgid ""
+"You can view the points <b>history</b> by clicking the points total in the "
+"table"
+msgstr ""
+
+#: include/admin.php:90
+msgid "All"
+msgstr "Alle"
+
+#: include/admin.php:91
+msgid "With points"
+msgstr "Mit Punkten"
+
+#: include/admin.php:92
+msgid "With coupon"
+msgstr "Mit Gutschein"
+
+#: include/admin.php:94
+msgid "Search..."
+msgstr "Suche..."
+
+#: include/admin.php:108
+msgid "Header picture"
+msgstr "Logo"
+
+#: include/admin.php:109
+msgid "Footer text"
+msgstr "Fußzeilen Text"
+
+#: include/admin.php:118
+msgid ""
+"Consider upgrading to <a href='admin.php?page=woorewards&tab=license'>Pro "
+"Version</a> to get access to a first class Loyalty Program"
+msgstr ""
+
+#: include/admin.php:134
+msgid "Subject"
+msgstr "Betreff"
+
+#: include/admin.php:140
+msgid "Title"
+msgstr "Titel"
+
+#: include/admin.php:146
+msgid "Header"
+msgstr "Header"
+
+#: include/admin.php:151
+msgid "A short text describing the mail purpose."
+msgstr ""
+
+#: include/admin.php:158
+msgid ""
+"\n"
+"\t\t\t\t\t\t\t\tOnce you've finished the email settings, <b>save your "
+"changes</b><br/>\n"
+"\t\t\t\t\t\t\t\tYou will then see the result in the style editor below<br/>\n"
+"\t\t\t\t\t\t\t\tSelect the elements you wish to change and have fun!\n"
+"\t\t\t\t\t\t\t"
+msgstr ""
+
+#: include/admin.php:182
+msgid "Receiver Email"
+msgstr "Empfänger Mail"
+
+#: include/admin.php:184
+msgid "Test your email to see how it looks"
+msgstr ""
+
+#: include/admin.php:188
+msgid "Send test email"
+msgstr "Test-E-Mail senden"
+
+#: include/admin.php:207
+msgid "Test email sent."
+msgstr "Test E-Mail wurde gesendet."
+
+#: include/admin.php:210
+msgid "Test email is not valid."
+msgstr ""
+
+#: include/admin.php:227
+msgid "Reward Points"
+msgstr "Treuepunkte"
+
+#: include/admin.php:228
+msgid ""
+"Here you can specify the points awarded to customers when they spend money "
+"on your shop. Reward Points and Order Points are cumulative. You can choose "
+"to use one, the other, or both."
+msgstr ""
+
+#: include/admin.php:232
+msgid "Money Spent"
+msgstr "Geld ausgegeben"
+
+#: include/admin.php:238
+msgid "Points Awarded"
+msgstr ""
+
+#: include/admin.php:244
+msgid "Includes taxes"
+msgstr ""
+
+#: include/admin.php:254 include/pointlist.php:62
+msgid "Coupons"
+msgstr "Gutscheine"
+
+#: include/admin.php:255
+msgid ""
+"Coupons are generated and sent by email to your customers according to the "
+"settings below"
+msgstr ""
+
+#: include/admin.php:259
+msgid "Points needed to create a coupon"
+msgstr ""
+
+#: include/admin.php:265 include/mailernewcoupon.php:54
+msgid "Coupon Value"
+msgstr "Der Wert des Gutscheins"
+
+#: include/admin.php:271
+msgid "Validity Period (days)"
+msgstr ""
+
+#: include/admin.php:282
+msgid ""
+"If you want to set multiple Rewards for different points tresholds, consider "
+"upgrading to <a href='admin.php?page=woorewards&tab=license'>Pro Version</a>"
+msgstr ""
+
+#: include/admin.php:292
+#, fuzzy
+#| msgid "Reward Points"
+msgid "Orders Points"
+msgstr "Treuepunkte"
+
+#: include/admin.php:293
+msgid ""
+"Here you can specify the points awarded to customers when they order on your "
+"shop."
+msgstr ""
+
+#: include/admin.php:297
+msgid "Points on order"
+msgstr ""
+
+#: include/admin.php:303
+msgid "Extra Points on first order"
+msgstr ""
+
+#: include/admin.php:308
+msgid ""
+"These points will be awarded on a customer's first order. It is cumulative "
+"with the value above."
+msgstr ""
+
+#: include/admin.php:318
+msgid ""
+"If you want to set a minimum order amount to attribute points, consider "
+"upgrading to <a href='admin.php?page=woorewards&tab=license'>Pro Version</a>"
+msgstr ""
+
+#: include/coupons.php:48
+#, php-format
+msgid "Order (%d)"
+msgstr ""
+
+#: include/coupons.php:102
+#, php-format
+msgid "Coupon (%s)"
+msgstr ""
+
+#: include/coupons.php:215
+#, php-format
+msgid "Set coupon code <b>%1$s</b> in your cart to enjoy <b>%2$s</b> discount."
+msgstr ""
+
+#: include/coupons.php:281 include/history.php:115
+msgid "Total"
+msgstr "Gesamt"
+
+#: include/coupons.php:287
+msgid "<i>Unlimited</i>"
+msgstr ""
+
+#: include/history.php:59
+msgid "Closure"
+msgstr "Abschluss"
+
+#: include/mailernewcoupon.php:26 woorewards.php:196
+msgid "New Coupon"
+msgstr "Neuer Gutschein"
+
+#: include/mailernewcoupon.php:27
+msgid "Send to a user when a new coupon is generated for him."
+msgstr ""
+
+#: include/mailernewcoupon.php:52
+#, fuzzy
+#| msgid "Show Details"
+msgid "Coupon Details"
+msgstr "Details anzeigen"
+
+#: include/mailernewcoupon.php:53
+#, fuzzy
+#| msgid "Coupon Value"
+msgid "Coupon Code"
+msgstr "Der Wert des Gutscheins"
+
+#: include/mailernewcoupon.php:55
+msgid "Expiration Date"
+msgstr ""
+
+#: include/mailernewcoupon.php:99
+#, php-format
+msgid "TEST__%d"
+msgstr ""
+
+#: include/pointlist.php:22
+msgid "User Information"
+msgstr "Benutzer-Information"
+
+#: include/pointlist.php:23
+msgid "User Id"
+msgstr "Benutzer ID"
+
+#: include/pointlist.php:25 include/pointlist.php:59
+msgid "Name"
+msgstr "Name"
+
+#: include/pointlist.php:27
+msgid "E-mail"
+msgstr "E-Mail"
+
+#: include/pointlist.php:29 include/pointlist.php:60
+msgid "City"
+msgstr "Stadt"
+
+#: include/pointlist.php:34
+msgid "Points Information"
+msgstr ""
+
+#: include/pointlist.php:35
+msgid "Current Points"
+msgstr "Aktuelle Punktzahl"
+
+#: include/pointlist.php:37
+msgid "New Total"
+msgstr ""
+
+#: include/pointlist.php:57
+msgid "Login"
+msgstr "Anmelden"
+
+#: include/pointlist.php:58
+msgid "Email"
+msgstr "E-Mail"
+
+#: include/pointlist.php:61
+msgid "Points"
+msgstr "Punkte"
+
+#: include/pointlist.php:205
+msgid "Adjustment"
+msgstr "Anpassung"
+
+#: include/pointlist.php:213 include/pointlistaction.php:26
+msgid "A new coupon has been generated."
+msgid_plural "New coupons have been generated."
+msgstr[0] ""
+msgstr[1] ""
+
+#: include/pointlistaction.php:17
+msgid "Add/Substract points"
+msgstr ""
+
+#: include/pointlistaction.php:39
+msgid "Commercial operation"
+msgstr "Kommerzieller Betrieb"
+
+#: snippets/mail.php:11
+msgid "Purchase achievement"
+msgstr ""
+
+#: snippets/mail.php:18
+msgid "Achievement details"
+msgstr ""
+
+#: woorewards.php:102
+msgid "Settings"
+msgstr "Einstellungen"
+
+#: woorewards.php:105
+msgid "Help"
+msgstr "Hilfe"
+
+#: woorewards.php:115
+msgid "Add Licence Key"
+msgstr ""
+
+#: woorewards.php:124
+msgid "https://plugins.longwatchstudio.com/en/product/woorewards-en/"
+msgstr ""
+
+#: woorewards.php:135
+msgid "https://plugins.longwatchstudio.com/en/documentation-en/woorewards/"
+msgstr ""
+
+#: woorewards.php:195
+msgid "You got a new coupon"
+msgstr ""
+
+#: woorewards.php:197
+msgid "Here is the new coupon code you just got"
+msgstr ""
+
+#: woorewards.php:199
+msgid "WooRewards by Long Watch Studio"
+msgstr ""
+
+#: woorewards.php:225
+msgid "Install Required Plugins Dependencies"
+msgstr ""
+
+#: woorewards.php:226
+msgid "Install Dependencies"
+msgstr ""
+
+#: woorewards.php:228
+#, php-format
+msgid "This plugin requires the following plugin: %1$s."
+msgid_plural "This plugin requires the following plugins: %1$s."
+msgstr[0] ""
+msgstr[1] ""
+
+#: woorewards.php:233
+#, php-format
+msgid "This plugin recommends the following plugin: %1$s."
+msgid_plural "This plugin recommends the following plugins: %1$s."
+msgstr[0] ""
+msgstr[1] ""
+
+#. Plugin URI of the plugin/theme
+msgid "https://plugins.longwatchstudio.com"
+msgstr ""
+
+#. Description of the plugin/theme
+msgid "Rewarding and Fidelity system for WooCommerce."
+msgstr ""
+
+#. Author of the plugin/theme
+msgid "Long Watch Studio"
+msgstr ""
+
+#. Author URI of the plugin/theme
+msgid "https://longwatchstudio.com"
+msgstr ""

@@ -1,0 +1,61 @@
+-----------------------------------------------------------------------------
+	Changelog
+-----------------------------------------------------------------------------
+
+Version 2.4.9
+- New:     Option added to customize padding on left and right of rows.
+- Updated: Ensure compatibility with PHP7.
+- Updated: inc/css.php updated to match SiteOrigin v2.4.21.
+- Updated: Improved css for mobile device, right margin removed with !important on grid cells.
+
+Version 2.4.8
+- Fixed:   Google Maps disable scroll feature now works correctly.
+
+Version 2.4.7
+- Fixed:   Custom row classes now work correctly.
+- Fixed:   Google Maps page builder module now works for recent API changes.
+
+Version 2.4.6
+- Fixed:   Compatible with Mailpoet plugin.
+- Updated: Custom gap for separator widget can now be applied.
+- Updated: Progress bar widget updated to use theme bundled shortcode to create output.
+- Updated: Notification widget updated to include animation effect and now also uses theme bundled shortcode to create output.
+
+Version 2.4.5
+- Fixed:   PHP error no longer displays on Prebuilt Layouts page. Previously closing tags were showing.
+- Updated: Class "sc-gmap3" added as wrapper to Google Maps module to allow for customization of map design.
+
+Version 2.4.4
+- Fixed:   Compatibility with WordPress v4.5.
+
+Version 2.2.4
+- Fixed:   Image alt text now displays in widget after page is updated.
+
+Version 2.2.3
+- New:     Layout builder module added. Can be used to add multiple column layouts within a single column.
+- Fixed:   Page Builder tab now displays correctly on WordPress v.4.4+.
+- Updated: Padding removed from row is layout builder module is being used.
+- Updated: Custom font header colors now applies to :before and :after selectors.
+
+Version 2.2.2
+- New:     Mouse scroll disabled by default in Google Maps. User can now specify whether to enable this or not.
+
+Version 2.2.1
+- Updated: Row field settings check to see if value is set before outputting.
+- Updated: Widget field settings checks to see if value is set before outputting.
+- Updated: $style_wrapper_start and $style_wrapper_end set to NULL if no value set.
+- Updated: Widgets updated to ensure compatibilty with WordPress v4.3+. "$this->WP_Widget" changed to "parent::__construct".
+- Updated: Function thinkup_widget_style_fields() removed from thinkup-panels.php as it wasn't being used.
+
+Version 2.2.0
+- Updated: Major update to ensure compatibility with WordPress v4.3+.
+
+Version 2.0.2
+- Fixed:   Page builder widgets no longer show on main widgets page - thinkup-admin.css updated.
+
+Version 2.0.1
+- New:     TextEditor page builder module added.
+- Fixed:   Page builder widgets no longer show on main widgets page.
+
+Version 2.0.0
+- New:     Initial release. Significant extension of SiteOrigin builder.

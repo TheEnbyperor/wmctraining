@@ -1,0 +1,17 @@
+#customize-controls .control-section-publisho-1 .accordion-section-title:hover,
+#customize-controls .control-section-publisho-1 .accordion-section-title:focus {
+	background-color: #fff;
+}
+
+.control-section-publisho-1 .accordion-section-title .button {
+    background: #f1f1f1 none repeat scroll 0 0;
+    border: 1px solid #0099ff;
+    color: #333333;
+    font-weight: 400;
+    margin-left: 8px;
+    margin-top: -4px;
+}
+.rtl .control-section-publisho-1 .accordion-section-title .button {
+	margin-left:  0;
+	margin-right: 8px;
+}

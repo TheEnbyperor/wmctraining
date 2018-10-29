@@ -1,0 +1,551 @@
+/*
+ Theme:  Alante Pro
+ Skin:   Engage
+*/
+
+/* ---------------------------------------------------------------------------------------
+	02. GLOBAL
+--------------------------------------------------------------------------------------- */
+
+/* Links */
+a {
+	color: #5D489A;
+}
+
+/* ---------------------------------------------------------------------------------------
+	05. NAVIGATION
+--------------------------------------------------------------------------------------- */
+
+/* =Pagination
+----------------------------------------------------------------------------- */
+.pag li a:hover,
+.pag li.current span {
+	background: #5D489A;
+	border-color: #5D489A;
+}
+
+/* Pagination - Native WordPress pagination */
+.navigation.pagination .nav-links a:hover,
+.navigation.pagination .nav-links a.current,
+.navigation.pagination .nav-links span:hover,
+.navigation.pagination .nav-links span.current {
+	background: #5D489A;
+	border-color: #5D489A;
+}
+
+/* ---------------------------------------------------------------------------------------
+	06. HEADER
+--------------------------------------------------------------------------------------- */
+
+/* =Menu
+----------------------------------------------------------------------------- */
+
+/* Pre-header */
+#pre-header .header-links .sub-menu a:hover {
+	color: #5D489A;
+}
+
+/* Header */
+#header .header-links .sub-menu a:hover,
+#header .header-links .sub-menu .current-menu-item a {
+	color: #5D489A;
+}
+#header .menu > li.current_page_item > a,
+#header .menu > li.current-menu-ancestor > a,
+#header .menu > li.menu-hover > a,
+#header .menu > li > a:hover {
+	-webkit-box-shadow: inset 0 3px 0 0 #5D489A;
+	-moz-box-shadow: inset 0 3px 0 0 #5D489A;
+	-ms-box-shadow: inset 0 3px 0 0 #5D489A;
+	-o-box-shadow: inset 0 3px 0 0 #5D489A;
+	box-shadow: inset 0 3px 0 0 #5D489A;
+}
+#header .menu > li.current_page_item > a span:first-child, 
+#header .menu > li.current-menu-ancestor > a span:first-child,
+#header .menu > li.menu-hover > a span:first-child,
+#header .menu > li > a:hover span:first-child {
+	color: #5D489A;
+}
+
+/* =Slider
+----------------------------------------------------------------------------- */
+
+/* Slider - Style 2 (Title - Theme, Excerpt - Black ) */
+#slider .rslides-content.style2 .featured-link a,
+.thinkupslider-sc .rslides-content.style2 .featured-link a {
+	background: #5D489A;
+	border-color: #5D489A;
+}
+
+/* ---------------------------------------------------------------------------------------
+	07. MAIN CONTENT
+--------------------------------------------------------------------------------------- */
+
+/* =Buttons
+----------------------------------------------------------------------------- */
+.themebutton {
+	background-color: #5D489A;
+}
+.themebutton2,
+button,
+html input[type="button"],
+input[type="reset"],
+input[type="submit"] {
+	background-color: #5D489A;
+}
+
+/* =Image Overlays
+----------------------------------------------------------------------------- */
+
+/* Image Overlay */
+.image-overlay {
+	-webkit-box-shadow: inset 0px -4px 0px 0px #5D489A !important;
+	-moz-box-shadow: inset 0px -4px 0px 0px #5D489A !important;
+	-ms-box-shadow: inset 0px -4px 0px 0px #5D489A !important;
+	-o-box-shadow: inset 0px -4px 0px 0px #5D489A !important;
+	box-shadow: inset 0px -4px 0px 0px #5D489A !important;
+}
+
+/* Image Overlay - Links */
+.image-overlay .hover-zoom:hover,
+.image-overlay .hover-link:hover {
+	background: #5D489A !important;
+}
+
+/* Image overlay - Overlay Style 2 */
+.image-overlay.overlay2 .image-overlay-inner {
+	background: #5D489A;
+}
+
+/* ---------------------------------------------------------------------------------------
+	08. FOOTER
+--------------------------------------------------------------------------------------- */
+#footer {
+	border-top: 7px solid #5D489A;
+}
+#footer-core a:hover {
+	color: #5D489A;
+}
+
+/* Sub Footer */
+#sub-footer-core a:hover {
+	color: #5D489A;
+}
+
+/* ---------------------------------------------------------------------------------------
+	09. WIDGETS & SIDEBAR
+--------------------------------------------------------------------------------------- */
+
+/* =Sidebar
+--------------------------------------------------------------------------------------- */
+#sidebar h3.widget-title:after {
+	border-bottom: 2px solid #5D489A;
+}
+
+/* =Widgets
+--------------------------------------------------------------------------------------- */
+
+/* Default Widget - Rss */
+.widget_rss li a {
+	color: #5D489A;
+}
+
+/* Default Widget - Tag Cloud */
+#sidebar .widget_tag_cloud a:hover { 
+	border-color: #5D489A;
+}
+#footer .widget_tag_cloud a:hover { 
+	border-color: #5D489A;
+}
+
+/* Custom Widget - Flickr */
+#sidebar .thinkup_widget_flickr a .image-overlay {
+	background-color: #5D489A;
+}
+#footer .thinkup_widget_flickr img:hover {
+	border: 2px solid #5D489A;
+}
+
+/* Custom Widget - Popular Posts / Recent Comments / Recent Posts */
+#sidebar .popular-posts a .image-overlay,
+#sidebar .recent-comments a .image-overlay,
+#sidebar .recent-posts a .image-overlay {
+	background-color: #5D489A;
+}
+#footer .popular-posts:hover img,
+#footer .recent-comments:hover img,
+#footer .recent-posts:hover img {
+	border-color: #5D489A;
+}
+
+/* Custom Widget - Recent Comments Quotes */
+.thinkup_widget_recentcomments .quote:before {
+	color: #5D489A;
+}
+
+/* Custom Widget - Tabs Specific */
+#sidebar .thinkup_widget_tabs li.active h3.widget-title {
+	border-top: 2px solid #5D489A;
+}
+
+/* Custom Widget - Tags Cloud */
+#sidebar .thinkup_widget_tagscloud a:hover {
+	border-color: #5D489A;
+}
+
+#footer .thinkup_widget_tagscloud a {
+}
+#footer .thinkup_widget_tagscloud a:hover {
+	background: #5D489A;
+	border-color: #5D489A;
+}
+
+/* Custom Widget - Twitter Feed */
+#sidebar .thinkup_widget_twitterfeed a {
+	color: #5D489A;
+}
+
+/* ---------------------------------------------------------------------------------------
+	10. PAGE FORMATS
+--------------------------------------------------------------------------------------- */
+
+/* =Meta Content
+----------------------------------------------------------------------------- */
+
+.entry-meta a:hover {
+	color: #5D489A;
+}
+
+/* =Blog - Style 1 & Style 2
+--------------------------------------------------------------------------------------- */
+
+/* Entry-footer area */
+.blog-article .more-link a:hover span {
+	background: #5D489A;
+}
+
+/* Image overlay effect */
+.blog-article .blog-thumb:hover .image-overlay {
+	-webkit-box-shadow: inset 0px -4px 0px 0px #5D489A;
+	-moz-box-shadow: inset 0px -4px 0px 0px #5D489A;
+	-ms-box-shadow: inset 0px -4px 0px 0px #5D489A;
+	-o-box-shadow: inset 0px -4px 0px 0px #5D489A;
+	box-shadow: inset 0px -4px 0px 0px #5D489A;
+}
+.blog-article .blog-thumb .hover-link:hover,
+.blog-article .blog-thumb .hover-zoom:hover {
+	background: #5D489A;
+}
+
+/* =Single Post
+--------------------------------------------------------------------------------------- */
+
+/* User Comment */
+.comment-author a:hover,
+.comment .reply a:hover,
+.comment-meta a:hover {
+	color: #5D489A;
+}
+
+/* =Archive
+--------------------------------------------------------------------------------------- */
+
+.page-template-template-archive-php #main-core a:hover {
+	color: #5D489A;
+}
+
+/* =Sitemap
+--------------------------------------------------------------------------------------- */
+
+.page-template-template-sitemap-php #main-core a:hover {
+	color: #5D489A;
+}
+
+/* ---------------------------------------------------------------------------------------
+	11. SHORTCODES - THEME SPECIFIC STYLE
+--------------------------------------------------------------------------------------- */
+
+/* BLOCKQUOTES
+------------------------------------------------------------------ */
+blockquote.style2, q.style2 {
+	border-left: 10px solid #5D489A;
+}
+
+/* BUTTONS
+------------------------------------------------------------------ */
+
+.button.style1:hover,
+.button.style2:hover,
+.button.style3:hover,
+.button.style4:hover {
+	background: #5D489A;
+}
+
+/* CAROUSEL (NAVIGATION)
+------------------------------------------------------------------ */
+
+.sc-carousel a.prev:hover,
+.sc-carousel a.next:hover {
+	background: #5D489A;
+}
+
+/* Corrects text color when cutom styling heading option is selected */
+.sc-carousel .entry-content h4 a:hover {
+	color: #5D489A !important;
+}
+
+/* LIST - FONT AWESOME
+------------------------------------------------------------------ */
+ul.iconfont i {
+	color: #5D489A;
+}
+
+/* LIGHTBOX
+------------------------------------------------------------------ */
+
+/* NOTIFICATION BOXES
+------------------------------------------------------------------ */
+
+.notification .icon:before {
+	border-left-color: #5D489A;
+}
+
+/* PRICING TABLE
+------------------------------------------------------------------ */
+
+.pricing-table i {
+	color: #5D489A;
+}
+.pricing-table .pricing-title,
+.pricing-table .pricing-price {
+	color: #5D489A
+}
+
+/* Style 2 */
+.pricing-table.style2 {
+	background: #5D489A;
+}
+.pricing-table.style2 .pricing-link a {
+	border: 2px solid #5D489A;
+}
+
+/* TOGGLES
+------------------------------------------------------------------ */
+
+/* Style 2 */
+.accordion.style2 .accordion-heading .accordion-toggle:before {
+	background: #5D489A;
+}
+
+/* PORTFOLIO POST CAROUSEL
+------------------------------------------------------------------ */
+.sc-carousel.carousel-portfolio .entry-content h4 a:hover {
+	color: #5D489A;
+}
+
+/* ICONS (FONT AWESOME)
+------------------------------------------------------------------ */
+
+/* Font Icon - Style 1 & Style 2 & Style 3 & Style 4 */
+.iconfull.style1 .iconimage a:hover i,
+.iconfull.style2 .iconimage a:hover i {
+	background: #5D489A;
+	border-color: #5D489A;
+}
+.iconfull.style1 .iconimage i.fa-inverse,
+.iconfull.style2 .iconimage i.fa-inverse {
+	background: #5D489A;
+	border-color: #5D489A;
+}
+
+/* Font Icon - Style 1 */
+.iconfull.style1 .iconimage a:hover i.fa-inverse {
+	border-color: #5D489A;
+	-webkit-box-shadow: inset 0px -70px 0px 0px #5D489A;
+	-moz-box-shadow: inset 0px -70px 0px 0px #5D489A;
+	-ms-box-shadow: inset 0px -70px 0px 0px #5D489A;
+	-o-box-shadow: inset 0px -70px 0px 0px #5D489A;
+	box-shadow: inset 0px -70px 0px 0px #5D489A;
+}
+
+
+/* ---------------------------------------------------------------------------------------
+	12. PAGE BUILDER - THEME SPECIFIC STYLE
+--------------------------------------------------------------------------------------- */
+
+/* Carousel - Portfolio  - Style when no link is set for portfolio button */
+.carousel-portfolio-builder.style2 .sc-carousel.carousel-portfolio a.prev:hover, 
+.carousel-portfolio-builder.style2 .sc-carousel.carousel-portfolio a.next:hover {
+	background: #5D489A;
+	border-color: #5D489A;
+}
+.carousel-portfolio-builder.style2 .sc-carousel-button:hover {
+	background: #5D489A;
+	border-color: #5D489A;
+}
+
+/* Services - Style 1 */
+.services-builder.style1 .iconimage i {
+	color: #5D489A;
+	border: 2px solid #5D489A;
+}
+.services-builder.style1 .iconmain .iconurl a {
+	color: #5D489A;
+}
+
+/* Services - Style 2 */
+.services-builder.style2 .iconimage i {
+	color: #5D489A;
+	border: 2px solid #5D489A;
+}
+.services-builder.style2 .iconimage a:hover i {
+	background: #5D489A;
+}
+.services-builder.style2 .iconimage i.fa-inverse {
+	background: #5D489A;
+}
+.services-builder.style2 .iconimage a:hover i.fa-inverse {
+	color: #5D489A;
+}
+.services-builder.style2 .iconmain .iconurl a {
+	color: #5D489A;
+}
+
+
+/* ---------------------------------------------------------------------------------------
+	100. CHILD THEME - THEME SPECIFIC STYLE
+--------------------------------------------------------------------------------------- */
+
+/* Services */
+.services-builder.style1 .iconmain .iconurl a {
+	display: inline-block;
+	color: #fff;
+	background: #5D489A;
+	padding: 3px 15px;
+	margin-top: 5px;
+}
+.services-builder.style1 .iconmain .iconurl a:hover {
+	opacity: 0.8 !important;
+	color: #fff;
+}
+
+/* Pre Header */
+
+/* Header */
+
+/* Intro */
+#intro.option1 {
+	border-left: none;
+	border-right: none;
+}
+#intro .action-shadow {
+	display: none;
+}
+
+/* Blog */
+.blog-article {
+	overflow: hidden;
+	background: #fafafa;
+	margin-bottom: 15px;
+}
+.blog-article .comment {
+	float: none;
+}
+.blog-article .entry-footer {
+	background: #fff;
+    border-top: 1px solid #DDD;
+	-webkit-box-shadow: 0 20px 0 0 #fff;
+	-moz-box-shadow: 0 20px 0 0 #fff;
+	-ms-box-shadow: 0 20px 0 0 #fff;
+	-o-box-shadow: 0 20px 0 0 #fff;
+	box-shadow: 0 20px 0 0 #fff;
+}
+.blog-article .entry-footer .entry-meta {
+	border: none;
+}
+.blog-article .more-link span {
+	color: #fff;
+	background: #5D489A;
+	padding: 5px 12px;
+}
+.blog-article .more-link a:hover {
+	opacity: 0.8;
+}
+.blog-article .more-link a:hover span {
+	right: 0;
+}
+.blog-article .more-link i {
+	display: none !important;
+}
+
+/* Post Navigation */
+.nav-previous a,
+.nav-next a {
+	background: #fff;
+}
+.nav-previous a:hover .meta-nav,
+.nav-next a:hover .meta-nav {
+	padding: 0;
+}
+.nav-previous a .meta-icon,
+.nav-next a .meta-icon {
+	display: none;
+}
+
+/* Author Bio */
+#author-bio {
+	background: #fff;
+}
+#author-bio img {
+	background: none;
+	border: none;
+	padding: 0;
+}
+
+/* Posts & Pages */
+
+/* Pagination */
+.navigation.pagination .nav-links a,
+.navigation.pagination .nav-links span {
+	color: #fff;
+	border: 1px solid #333;
+	background: #333;
+}
+.navigation.pagination .nav-links .dots {
+	vertical-align: bottom;
+	line-height: 30px;
+}	
+.navigation.pagination .nav-links .dots,
+.navigation.pagination .nav-links .dots:hover {
+	color: #888;
+	background: #fff;
+	border-color: #fff;
+}
+
+/* Sidebars */
+#sidebar h3.widget-title {
+	padding-bottom: 0;
+}
+#sidebar h3.widget-title:after {
+	display: none;
+}
+#sidebar .widget ul {
+	background: #fafafa;
+}
+#sidebar .widget li a {
+	vertical-align: inherit;
+	padding-right: 5px;
+}
+
+/* Footer */
+#footer-core h3 {
+	text-transform: none;
+    border-bottom: none;
+    -webkit-box-shadow: none;
+    -moz-box-shadow: none;
+    -ms-box-shadow: none;
+    -o-box-shadow: none;
+    box-shadow: none;
+}
+
+/* Responsive */

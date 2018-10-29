@@ -1,0 +1,168 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Announcer\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2010-07-29 22:57+0530\n"
+"PO-Revision-Date: 2010-07-29 22:59+0530\n"
+"Last-Translator: Aakash Chakravarthy <aakash.19493@gmail.com>\n"
+"Language-Team: Aakash Chakravarthy <aakash.19493@gmail.com>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Poedit-KeywordsList: _;gettext;gettext_noop;__;_e\n"
+"X-Poedit-Basepath: .\n"
+"X-Poedit-SearchPath-0: ..\n"
+
+#: ../adm-sidebar.php:10
+msgid "Donate and support this plugin's future"
+msgstr "Spenden und Unterstützung dieses Plugin die Zukunft"
+
+#: ../adm-sidebar.php:14
+msgid "Plugin Support"
+msgstr "Plugin-Unterstützung"
+
+#: ../adm-sidebar.php:18
+msgid "Plugin Documentation"
+msgstr "Plugin-Dokumentation"
+
+#: ../adm-sidebar.php:22
+msgid "Bugs Report"
+msgstr "Fehler melden"
+
+#: ../adm-sidebar.php:26
+msgid "FAQ's"
+msgstr "FAQ's"
+
+#: ../adm-sidebar.php:30
+msgid "Request a feature"
+msgstr "Fordern Sie eine Funktion"
+
+#: ../adm-sidebar.php:34
+msgid "Author Website"
+msgstr "Autor Website"
+
+#: ../adm-sidebar.php:38
+msgid "Support this plugin"
+msgstr "Unterstützen Sie dieses Plugin"
+
+#: ../adm-sidebar.php:42
+msgid "Follow the author"
+msgstr "Folgen Sie den Autor"
+
+#: ../adm-sidebar.php:46
+msgid "Subscribe to Updates"
+msgstr "Abonnieren Sie Updates"
+
+#: ../adm-sidebar.php:50
+msgid "Promote this plugin"
+msgstr "Förderung dieses Plugin"
+
+#: ../adm-sidebar.php:55
+msgid "More plugins"
+msgstr "Weitere Plugins"
+
+#: ../announcer.php:223
+#: ../announcer.php:435
+msgid "Announcement is On"
+msgstr "Bekanntmachung auf"
+
+#: ../announcer.php:229
+#: ../announcer.php:431
+msgid "Announcement is Off"
+msgstr "Bekanntmachung ist Aus"
+
+#: ../announcer.php:259
+#, php-format
+msgid "The end date <code>%s</code> has expired. Announcement is turned off"
+msgstr "Das Enddatum <code>%s</code> ist abgelaufen. Bekanntmachung ist ausgeschaltet"
+
+#: ../announcer.php:266
+msgid "Updated successfully !"
+msgstr "Erfolgreich aktualisiert!"
+
+#: ../announcer.php:273
+msgid "Please enter a ID for the announcement box"
+msgstr "Bitte geben Sie eine ID für die Ankündigung box"
+
+#: ../announcer.php:293
+msgid "Announcement content is not changed. Other options are updated !"
+msgstr "Ankündigung Inhalte wird nicht verändert. Weitere Optionen sind aktualisiert!"
+
+#: ../announcer.php:304
+msgid "Unable to update !"
+msgstr "Kann Update!"
+
+#: ../announcer.php:309
+#, php-format
+msgid "The end date <code>%s</code> has expired or invalid. Please check the date. Format is <code>YYYY-MM-DD</code>"
+msgstr "Das Enddatum <code>%s</code> ist abgelaufen oder ungültig. Bitte überprüfen Sie das Datum ein. Format ist <code> YYYY-MM-DD </code>"
+
+#: ../announcer.php:337
+msgid "Click to toggle showing announcements on and off"
+msgstr "Klicken Sie auf toggle Anzeigen Ankündigungen und ausschalten"
+
+#: ../announcer.php:344
+msgid "Announcement"
+msgstr "Ankündigung"
+
+#: ../announcer.php:350
+msgid "Options"
+msgstr "Optionen"
+
+#: ../announcer.php:354
+msgid "End Date"
+msgstr "End Date"
+
+#: ../announcer.php:357
+msgid "Format is YYYY-MM-DD | 0 for no limit"
+msgstr "Das Format ist YYYY-MM-DD | 0 für kein Limit"
+
+#: ../announcer.php:360
+msgid "Div tag's ID*"
+msgstr "Div-Tag-ID *"
+
+#: ../announcer.php:364
+msgid "Show close button"
+msgstr "Schließen-Button einblenden"
+
+#: ../announcer.php:367
+msgid "Yes"
+msgstr "Ja"
+
+#: ../announcer.php:368
+msgid "No"
+msgstr "Bei"
+
+#: ../announcer.php:375
+msgid "Announcement box Class"
+msgstr "Bekanntmachung Box-Klasse"
+
+#: ../announcer.php:377
+msgid "Use custom class"
+msgstr "Verwenden Sie benutzerdefinierte Klasse"
+
+#: ../announcer.php:381
+msgid "Inbuilt Classes"
+msgstr "Eingebaute Klassen"
+
+#: ../announcer.php:388
+msgid "Custom Class"
+msgstr "Custom Class"
+
+#: ../announcer.php:394
+msgid "Announcement box placement"
+msgstr "Bekanntmachung Feld Platzierung"
+
+#: ../announcer.php:400
+msgid "Before post (above the heading & recommended)"
+msgstr "Vor der Post (oberhalb der Überschrift & empfohlen)"
+
+#: ../announcer.php:404
+msgid "After post"
+msgstr "Nach post"
+
+#: ../announcer.php:407
+#, php-format
+msgid "\"I will place it myself in the the theme file\"<br />Use the code <code>%s</code> in your theme file"
+msgstr "\"Ich werde es selbst in der das Thema Datei place\" <br/> Verwenden Sie den Code <code>%s</code> in deinem Theme-Datei"
+

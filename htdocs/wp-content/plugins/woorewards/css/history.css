@@ -1,0 +1,22 @@
+.lws-woorewards-historic-points {display: flex;width: 40em;flex-direction: column;}
+.lws-woorewards-historic-points-row {flex-direction: row;display: flex;}
+
+.lws-woorewards-historic-points-cell-date {flex-direction: row;line-height: 1.6em;font-family: Gravity;font-weight: 300;display: flex;width: 30%;}
+.lws-woorewards-historic-points-cell-time {flex-direction: row;line-height: 1.6em;font-family: Gravity;font-weight: 300;display: flex;width: 20%;}
+.lws-woorewards-historic-points-cell-points {flex-direction: row;text-align: right;width: 10%;}
+.lws-woorewards-historic-points-cell-commentar {flex-direction: row;text-align: left;width: 40%;}
+
+.lws-woorewards-historic-points-cell-code {flex-direction: row;text-align: left;width: 40%;}
+.lws-woorewards-historic-points-cell-expiry {flex-direction: row;line-height: 1.6em;font-family: Gravity;font-weight: 300;display: flex;width: 50%;}
+.lws-woorewards-historic-points-cell-amount {flex-direction: row;text-align: right;width: 10%;}
+
+.lws-woorewards-historic-show-current {border-bottom: 2px solid;width: 40em;margin-bottom: 10px;text-align: right;}
+.lws-woorewards-historic-show-current-label {line-height: 1.6em;font-family: Gravity;font-weight: 300;margin-right:1em;}
+.lws-woorewards-historic-show-current {text-align: right;}
+
+.lws-wr-show-historic{cursor: pointer}
+.lws-wr-show-coupons{cursor: pointer}
+#lws-wr-modal-bg{position: fixed;z-index: 99999;left: 0;top: 0;width: 100%;height: 100%;overflow: auto;background-color: rgb(0,0,0);background-color: rgba(0,0,0,0.4);}
+#lws-wr-modal-content{background-color: #fefefe;margin: 15% auto;padding: 20px;border: 1px solid #888;width: 42em;}
+#lws-wr-modal-close{color: #aaa;float: right;font-size: 2em;font-weight: bold;}
+#lws-wr-modal-close:hover, #lws-wr-modal-close:focus {color: black;text-decoration: none;cursor: pointer;}

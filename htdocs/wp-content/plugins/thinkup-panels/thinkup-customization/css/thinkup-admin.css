@@ -1,0 +1,197 @@
+/* Hide page builder widgets from showing on main widgets page */
+body.widgets-php  #widget-list [id*="thinkup_builder_"] {
+	display: none !important;
+}
+
+/* Fix issue where row settings dropdown is hidden behind column seperator */
+.siteorigin-panels-builder .so-rows-container .so-row-toolbar .so-dropdown-wrapper .so-dropdown-links-wrapper {
+	z-index: 101;
+}
+
+/* ----------------------------------------------------------------------------------------
+	1. General Styling
+---------------------------------------------------------------------------------------- */
+
+/* Sidebar size */
+.so-panels-dialog .so-right-sidebar {
+    width: 470px;
+}
+.so-panels-dialog.so-panels-dialog-has-right-sidebar .so-content {
+    right: 500px;
+}
+
+.so-panels-dialog .style-field-wrapper > label {
+    white-space: nowrap;
+	font-weight: 400 !important;
+	cursor: auto;
+}
+
+/* General field styling */
+.thinkup-style-field-text,
+.thinkup-style-field-code,
+.thinkup-style-field-color,
+.thinkup-style-field-image,
+.thinkup-style-field-select,
+.thinkup-style-field-checkbox {
+	display: inline-block;
+	min-height: 50px;
+	vertical-align: middle;
+	margin-top: -20px
+}
+.thinkup-style-field-text,
+.thinkup-style-field-code,
+.thinkup-style-field-color,
+.thinkup-style-field-image,
+.thinkup-style-field-select {
+	margin-left: 140px;
+    width: 135px
+}
+.thinkup-style-field-text > label,
+.thinkup-style-field-code > label,
+.thinkup-style-field-color > label,
+.thinkup-style-field-image > label,
+.thinkup-style-field-select > label {
+    position: relative;
+    left: -140px;
+    top: 25px;
+	width: 100px;
+}
+.thinkup-style-field-checkbox > label {
+	color: #F7F7F7;
+	color: transparent;
+}
+.thinkup-style-field-text,
+.thinkup-style-field-code,
+.thinkup-style-field-image {
+    width: 250px
+}
+
+.thinkup-style-field-select select{
+    width: 105px
+}
+.thinkup-style-field-checkbox {
+    width: 120px;
+}
+
+/* Image field */
+.thinkup-style-field-image .remove-image {
+    color: #fff !important;
+    text-align: center;
+    line-height: 26px;
+    height: 26px;
+    width: 60px;
+    background: #d54e21;
+    margin-top: 2px !important;
+	-webkit-border-radius: 3px;
+	-moz-border-radius: 3px;
+	-ms-border-radius: 3px;
+	-o-border-radius: 3px;
+	border-radius: 3px;
+}
+.thinkup-style-field-image .remove-image:hover {
+	background: #a00;
+}
+
+/* Headings - begin with class "thinkup_heading_row" */
+[class*="thinkup_heading_row"] {
+	width: 100% !important;
+	margin-left: 0 !important;
+    margin-top: 0 !important;
+	margin-bottom: 10px !important
+}
+[class*="thinkup_heading_row"]:before {
+    content: "";
+    width: 400px;
+    height: 1px;
+    border-bottom: 1px solid #e5e5e5;
+    position: relative;
+    display: block;
+    padding-top: 0px;
+    margin-bottom: 20px
+}
+[class*="thinkup_heading_row"] > label {
+    position: static;
+}
+[class*="thinkup_heading_row"] .style-field {
+	display: none !important;
+}
+[class*="thinkup_heading_row"].style-field-wrapper > label {
+	font-weight: 700 !important;
+}
+
+
+/* ----------------------------------------------------------------------------------------
+	2.1. Row - Custom Styling
+---------------------------------------------------------------------------------------- */
+
+/* Border Settings */
+.thinkup_styleBorderTStyle,
+.thinkup_styleBorderBStyle {
+	margin-left: 0 !important;
+}
+.thinkup_styleBorderTStyle > label,
+.thinkup_styleBorderBStyle > label {
+	position: relative;
+    z-index: -1;
+	color: #F7F7F7;
+	color: transparent;
+}
+.thinkup_styleBorderTColor > label,
+.thinkup_styleBorderBColor > label,
+.thinkup_styleBorderTColorClear > label,
+.thinkup_styleBorderBColorClear > label {
+	display: none !important;	
+}
+.thinkup_styleBorderTColor,
+.thinkup_styleBorderBColor,
+.thinkup_styleBorderTColorClear,
+.thinkup_styleBorderBColorClear {
+	margin-top: 0 !important;
+    margin-bottom: 0 !important
+}
+
+
+/* ----------------------------------------------------------------------------------------
+	2.2. Row - Layout
+---------------------------------------------------------------------------------------- */
+
+/* Select fields - larger width for label */
+.thinkup_row_layout .thinkup-style-field-select {
+    margin-left: 195px;
+}
+.thinkup_row_layout .thinkup-style-field-select > label {
+	left: -195px;
+}
+
+/* ----------------------------------------------------------------------------------------
+	3.1. Widget - Custom Styling
+---------------------------------------------------------------------------------------- */
+
+/* Border Settings */
+.thinkup_widget_styleBorderStyle {
+	margin-left: 0 !important;
+}
+.thinkup_widget_styleBorderStyle > label {
+	position: relative;
+    z-index: -1;
+	color: #F7F7F7;
+	color: transparent;
+}
+.thinkup_widget_styleBorderColor > label,
+.thinkup_widget_styleBorderColorClear > label {
+	display: none !important;	
+}
+.thinkup_widget_styleBorderColor,
+.thinkup_widget_styleBorderColorClear {
+	margin-top: 0 !important;
+    margin-bottom: 0 !important
+}
+
+/* ----------------------------------------------------------------------------------------
+	4. Page Builder Menu Page
+---------------------------------------------------------------------------------------- */
+
+/* Hide "Post Types" setting - If removed using PHP the ncustom option doesn't save */
+#panels-settings-section-general .form-table tbody .panels-setting:first-child {
+    display: none;
+}
