@@ -19,6 +19,7 @@ if (in_array('woocommerce/woocommerce.php', apply_filters('active_plugins', get_
                 add_action('admin_init', [$this, 'settings_init']);
                 add_action('admin_menu', [$this, 'options_page']);
                 add_action('woocommerce_cart_totals_after_order_total', [$this, 'add_points_to_totals']);
+                add_action('woocommerce_payment_complete', [$this, 'add_points_to_customer']);
             }
 
             /**
@@ -139,24 +140,23 @@ if (in_array('woocommerce/woocommerce.php', apply_filters('active_plugins', get_
             /**
              * Get the number of loyalty points a customer has
              *
-             * @param WC_Customer $cust
+             * @param int $cust
              * @return int
              */
             private function get_customer_points($cust) {
-                return intval($cust->get_meta('wc_loyaltypoints_points'));
+                return intval(get_user_meta($cust, 'wc_loyaltypoints_points'));
             }
 
             /**
              * Add the desired change in points to the customer
              *
-             * @param WC_Customer $cust
+             * @param int $cust
              * @param int $change
              */
             private function change_customer_points($cust, $change) {
                 $cur_points = $this->get_customer_points($cust);
                 $cur_points += $change;
-                $cust->update_meta_data('wc_loyaltypoints_points', $cur_points);
-                $cust->save_meta_data();
+                update_user_meta($cust, 'wc_loyaltypoints_points', $cur_points);
             }
 
             /**
@@ -175,6 +175,18 @@ if (in_array('woocommerce/woocommerce.php', apply_filters('active_plugins', get_
                     <td><?= $total_points ?></td>
                 </tr>
                 <?php
+            }
+
+            /**
+             * Calculates the gained loyalty points and adds them to the customer
+             *
+             * @param int $order Order Id
+             */
+            function add_points_to_customer($order) {
+                $order = wc_get_order($order);
+                $cust = $order->get_customer_id();
+                $total_points = $order->get_item_count() * $this->get_points_per_item();
+                $this->change_customer_points($cust, $total_points);
             }
         }
     }
