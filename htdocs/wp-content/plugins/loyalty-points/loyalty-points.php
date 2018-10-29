@@ -21,6 +21,9 @@ if (in_array('woocommerce/woocommerce.php', apply_filters('active_plugins', get_
                 add_action('woocommerce_cart_totals_after_order_total', [$this, 'add_points_to_totals']);
             }
 
+            /**
+             * Register the plugin with the settings API
+             */
             function settings_init()
             {
                 // register a new setting for "wporg" page
@@ -48,11 +51,20 @@ if (in_array('woocommerce/woocommerce.php', apply_filters('active_plugins', get_
                 );
             }
 
+            /**
+             * Sanitize the points per item input to an integer
+             *
+             * @param string $val
+             * @return int
+             */
             function sanitize_points_per_item($val) {
                 return intval($val);
             }
 
-            function points_per_item_cb( $args ) {
+            /**
+             * Display the input field for points per item
+             */
+            function points_per_item_cb() {
                 // get the value of the setting we've registered with register_setting()
                 $options = get_option( 'points_per_item' );
                 // output the field
@@ -61,6 +73,9 @@ if (in_array('woocommerce/woocommerce.php', apply_filters('active_plugins', get_
                 <?php
             }
 
+            /**
+             * Register the options page in the admin
+             */
             function options_page()
             {
                 // add top level menu page
@@ -73,6 +88,9 @@ if (in_array('woocommerce/woocommerce.php', apply_filters('active_plugins', get_
                 );
             }
 
+            /**
+             * Display the main options page in the admin
+             */
             function options_page_html()
             {
                 // check user capabilities
@@ -109,10 +127,41 @@ if (in_array('woocommerce/woocommerce.php', apply_filters('active_plugins', get_
                 <?php
             }
 
+            /**
+             * Get the points per item setting as an integer
+             *
+             * @return int
+             */
             private function get_points_per_item() {
                 return intval(get_option( 'points_per_item' ));
             }
 
+            /**
+             * Get the number of loyalty points a customer has
+             *
+             * @param WC_Customer $cust
+             * @return int
+             */
+            private function get_customer_points($cust) {
+                return intval($cust->get_meta('wc_loyaltypoints_points'));
+            }
+
+            /**
+             * Add the desired change in points to the customer
+             *
+             * @param WC_Customer $cust
+             * @param int $change
+             */
+            private function change_customer_points($cust, $change) {
+                $cur_points = $this->get_customer_points($cust);
+                $cur_points += $change;
+                $cust->update_meta_data('wc_loyaltypoints_points', $cur_points);
+                $cust->save_meta_data();
+            }
+
+            /**
+             * Display the number of loyalty points to be gained with the current cart contents
+             */
             function add_points_to_totals()
             {
                 global $woocommerce;
