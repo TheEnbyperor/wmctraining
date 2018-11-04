@@ -19,7 +19,11 @@ if (in_array('woocommerce/woocommerce.php', apply_filters('active_plugins', get_
                 add_action('admin_init', [$this, 'settings_init']);
                 add_action('admin_menu', [$this, 'options_page']);
                 add_action('woocommerce_cart_totals_after_order_total', [$this, 'add_points_to_totals']);
+                add_action('woocommerce_review_order_after_order_total', [$this, 'add_points_to_totals']);
+                add_action('woocommerce_order_details_after_order_table_items', [$this, 'add_points_to_totals_order']);
                 add_action('woocommerce_payment_complete', [$this, 'add_points_to_customer']);
+                add_action( 'woocommerce_product_options_general_product_data', [$this, 'product_add_points_field']);
+                add_action( 'woocommerce_process_product_meta', [$this, 'product_save_points_field']);
             }
 
             /**
@@ -129,6 +133,32 @@ if (in_array('woocommerce/woocommerce.php', apply_filters('active_plugins', get_
             }
 
             /**
+             * Register the field to set a custom amount of loyalty points gained
+             */
+            function product_add_points_field() {
+                woocommerce_wp_text_input(array(
+                    'id' => 'product_loyalty_points',
+                    'label' => 'Loyalty points gained',
+                    'class' => 'loyalty-points',
+                    'desc_tip' => true,
+                    'description' => 'Number of loyalty points gained instead of the default',
+                    'data_type' => 'stock',
+                ));
+            }
+
+            /**
+             * Save the product loyalty points to the product meta
+             * @param $post_id int ID of the product
+             */
+            function product_save_points_field($post_id) {
+                $product = wc_get_product( $post_id );
+                $points = isset( $_POST['product_loyalty_points'] ) ? $_POST['product_loyalty_points'] : '';
+                $points = wc_stock_amount($points);
+                $product->update_meta_data( 'product_loyalty_points', $points );
+                $product->save();
+            }
+
+            /**
              * Get the points per item setting as an integer
              *
              * @return int
@@ -159,6 +189,23 @@ if (in_array('woocommerce/woocommerce.php', apply_filters('active_plugins', get_
                 update_user_meta($cust, 'wc_loyaltypoints_points', $cur_points);
             }
 
+            private function calculate_points_from_cart($items) {
+                $points = 0;
+                $points_per_item = $this->get_points_per_item();
+
+                foreach ($items as $item) {
+                    $item_id = $item["product_id"];
+                    $item_points = intval(wc_stock_amount(get_post_meta($item_id, 'product_loyalty_points', true)));
+                    if ($item_points > 0) {
+                        $points += $item_points;
+                    } else {
+                        $points += $points_per_item;
+                    }
+                }
+
+                return $points;
+            }
+
             /**
              * Display the number of loyalty points to be gained with the current cart contents
              */
@@ -167,7 +214,24 @@ if (in_array('woocommerce/woocommerce.php', apply_filters('active_plugins', get_
                 global $woocommerce;
 
 
-                $total_points = $woocommerce->cart->get_cart_contents_count() * $this->get_points_per_item();
+                $total_points = $this->calculate_points_from_cart($woocommerce->cart->get_cart_contents());
+
+                ?>
+                <tr>
+                    <th>Loyalty points gained:</th>
+                    <td><?= $total_points ?></td>
+                </tr>
+                <?php
+            }
+
+            /**
+             * Display the number of loyalty points gained from the order
+             *
+             * @param $order WC_Abstract_Order
+             */
+            function add_points_to_totals_order($order)
+            {
+                $total_points = $this->calculate_points_from_cart($order->get_items());
 
                 ?>
                 <tr>
@@ -185,7 +249,7 @@ if (in_array('woocommerce/woocommerce.php', apply_filters('active_plugins', get_
             function add_points_to_customer($order) {
                 $order = wc_get_order($order);
                 $cust = $order->get_customer_id();
-                $total_points = $order->get_item_count() * $this->get_points_per_item();
+                $total_points = $this->calculate_points_from_cart($order->get_items());
                 $this->change_customer_points($cust, $total_points);
             }
         }
