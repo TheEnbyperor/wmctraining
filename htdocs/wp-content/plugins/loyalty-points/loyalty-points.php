@@ -22,6 +22,7 @@ if (in_array('woocommerce/woocommerce.php', apply_filters('active_plugins', get_
                 add_action('woocommerce_review_order_after_order_total', [$this, 'add_points_to_totals']);
                 add_action('woocommerce_order_details_after_order_table_items', [$this, 'add_points_to_totals_order']);
                 add_action('woocommerce_payment_complete', [$this, 'add_points_to_customer']);
+                add_action('woocommerce_payment_complete', [$this, 'subtract_points_on_order']);
                 add_action('woocommerce_product_options_general_product_data', [$this, 'product_add_points_field']);
                 add_action('woocommerce_process_product_meta', [$this, 'product_save_points_field']);
                 add_filter('woocommerce_get_price_html', [$this, 'get_product_price_html'], 10, 2);
@@ -29,7 +30,48 @@ if (in_array('woocommerce/woocommerce.php', apply_filters('active_plugins', get_
                 add_filter('woocommerce_cart_product_subtotal', [$this, 'get_product_subtotal_html'], 10, 3);
                 add_filter('woocommerce_loop_add_to_cart_link', [$this, 'loop_add_to_cart_filter'], 10, 2);
                 add_action('woocommerce_check_cart_items', [$this, 'check_cart_points']);
-                add_action('woocommerce_thankyou', [$this, 'subtract_points_on_order']);
+                add_shortcode('loyalty_points_display', [$this, 'number_points_shortcode']);
+                wp_register_style('loyalty-points_points-display', plugins_url('templates/style/points-display.css',__FILE__ ));
+                add_action('wp_enqueue_scripts', [$this, 'enqueue_style']);
+            }
+
+            function enqueue_style(){
+                wp_enqueue_style('loyalty-points_points-display');
+            }
+
+            function locate_template( $template_name, $template_path = '', $default_path = '' ) {
+                // Set variable to search in woocommerce-plugin-templates folder of theme.
+                if ( ! $template_path ) :
+                    $template_path = 'loyalty-points-templates/';
+                endif;
+                // Set default plugin templates path.
+                if ( ! $default_path ) :
+                    $default_path = plugin_dir_path( __FILE__ ) . 'templates/'; // Path to the template folder
+                endif;
+                // Search template file in theme folder.
+                $template = locate_template( array(
+                    $template_path . $template_name,
+                    $template_name
+                ) );
+                // Get plugins template file.
+                if ( ! $template ) :
+                    $template = $default_path . $template_name;
+                endif;
+                return apply_filters( 'loyalty-points_locate_template', $template, $template_name, $template_path, $default_path );
+            }
+
+            function get_template( $template_name, $args = array(), $tempate_path = '', $default_path = '') {
+                if ( is_array( $args ) && isset( $args ) ) :
+                    extract( $args );
+                endif;
+                $template_file = $this->locate_template( $template_name, $tempate_path, $default_path );
+                if ( ! file_exists( $template_file ) ) :
+                    _doing_it_wrong( __FUNCTION__, sprintf( '<code>%s</code> does not exist.', $template_file ), '1.0.0' );
+                    return;
+                endif;
+                ob_start();
+                include $template_file;
+                return ob_get_clean();
             }
 
             /**
@@ -39,7 +81,7 @@ if (in_array('woocommerce/woocommerce.php', apply_filters('active_plugins', get_
             {
                 // register a new setting for "wporg" page
                 register_setting('wc_loyaltypoints', 'points_per_item', array(
-                    'default' => 100,
+                    'default' => 1,
                     'sanitize_callback' => [$this, 'sanitize_points_per_item']
                 ));
 
@@ -351,13 +393,33 @@ if (in_array('woocommerce/woocommerce.php', apply_filters('active_plugins', get_
                 $total_points = $this->calculate_points_from_cart($order->get_items());
                 $this->change_customer_points($cust, $total_points);
             }
-            
+
+            /**
+             * Calculates the points cost of the cart, then subtracts that from the customers total
+             *
+             * @param int $order_id Order ID
+             */
             function subtract_points_on_order($order_id)
             {
                 $order = wc_get_order($order_id);
                 $total_points = $this->calculate_points_needed_for_cart($order->get_items());
                 $cust = $order->get_customer_id();
                 $this->change_customer_points($cust, -$total_points); 
+            }
+
+            /**
+             * Shortcode to display the number of points a customer has
+             *
+             * @param $atts
+             * @return int Number of points
+             */
+            function number_Points_shortcode($atts)
+            {
+                global $woocommerce;
+                $current_points = $this->get_customer_points($woocommerce->customer->id);
+                return $this->get_template( 'points-display.php', array(
+                        "current_points" => $current_points
+                ));
             }
         }
     }

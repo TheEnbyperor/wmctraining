@@ -1,0 +1,45 @@
+.loyalty-points-display {
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background: #279636;
+    padding: 15px;
+    border-radius: 30px;
+}
+
+.loyalty-points-display h1 {
+    color: #fff;
+    margin-bottom: 15px;
+    line-height: 1;
+}
+
+.loyalty-points-display .points {
+    display: grid;
+    grid-template-columns: repeat(5, 50px);
+    background: #fff;
+    border-radius: 5px;
+    padding: 5px;
+}
+
+.loyalty-points-display .point {
+    height: 50px;
+    background: url(../img/hand-grey.png) 50% 50%;
+    background-size: contain;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: bold;
+    color: #279636;
+    font-size: 20px;
+    text-shadow:
+        -1px -1px 0 #fff,
+        1px -1px 0 #fff,
+        -1px 1px 0 #fff,
+        1px 1px 0 #fff;
+}
+
+.loyalty-points-display .point.fill {
+    background-image: url(../img/hand.png);
+}
